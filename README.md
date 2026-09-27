@@ -1,4 +1,4 @@
-# KH 中文化计划 Hexo 博客
+# BBSFM简体中文汉化计划 Hexo 博客
 
 这是一个使用 Hexo 与 Butterfly 主题的静态博客。文章使用 Markdown 编写，Cloudflare Pages 会在源码推送后自动生成和发布网站。
 
