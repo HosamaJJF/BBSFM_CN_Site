@@ -1,0 +1,44 @@
+License scope
+=============
+
+The MIT License below applies only to the original site code and configuration
+in these paths:
+
+- scripts/
+- source/css/
+- scaffolds/
+- _config.yml, _config.butterfly.yml, _multiconfig.yml, and package.json
+
+It does not apply to articles, page text, data, or images under source/, or to
+other files in this repository. No additional permission to reuse those works
+is granted by this license. The site owner reserves any rights they may hold
+in those works under applicable law, including rights in human contributions
+to AI-assisted images. This notice does not assert that every AI-generated
+element is independently copyrightable.
+
+Third-party software, images, icons, names, and trademarks remain subject to
+their respective owners' rights and licenses. The MIT License below grants
+rights only to material the named copyright holder is entitled to license.
+
+MIT License
+===========
+
+Copyright (c) 2026 HosamaJJF
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
