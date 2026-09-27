@@ -1,0 +1,27 @@
+- class_name: 王国之心汉化项目
+  class_desc: 系列其他作品的汉化发布页
+  link_list:
+    - name: 王国之心 HD 2.8 合集汉化
+      link: https://kh28patch-3ye72x2.maozi.io/
+      avatar: /img/2.8icon.png
+      descr: 王国之心2.8合集汉化发布页
+
+- class_name: 工具与资料
+  class_desc: 补丁与本站制作所使用或参考的开源项目
+  link_list:
+    - name: OpenKH
+      link: https://github.com/OpenKH/OpenKh
+      avatar: /img/OpenKHicon.png
+      descr: KINGDOM HEARTS 系列开源工具与格式研究项目
+    - name: KingdomSaveEditor
+      link: https://github.com/Xeeynamo/KingdomSaveEditor
+      avatar: /img/kingdom-save-editor.png
+      descr: KINGDOM HEARTS 系列开源存档编辑工具
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: /img/hexo-logo-avatar.png
+      descr: A fast, simple & powerful blog framework, powered by Node.js.
+    - name: Butterfly
+      link: https://github.com/jerryc127/hexo-theme-butterfly
+      avatar: /img/butterfly-icon.png
+      descr: A modern, elegant and feature-rich theme for Hexo

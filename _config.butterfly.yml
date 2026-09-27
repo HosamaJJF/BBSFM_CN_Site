@@ -1,0 +1,174 @@
+nav:
+  logo: /img/icon.png
+  display_title: true
+  display_post_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-home
+  补丁发布: /categories/补丁发布/ || fas fa-download
+  开发记录: /categories/开发记录/ || fas fa-book-open
+  归档: /archives/ || fas fa-archive
+  友情链接: /friends/ || fas fa-link
+  关于: /about/ || fas fa-circle-info
+
+social:
+
+favicon: /img/icon.png
+avatar:
+  img: /img/avatar.png
+  effect: false
+
+disable_top_img: false
+default_top_img: /img/top.png
+index_img: /img/top.png
+archive_img: /img/top.png
+tag_img: /img/top.png
+category_img: /img/top.png
+footer_img: /img/top.png
+background: '#eef3f8'
+
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover:
+    - /img/cover001.png
+
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+
+subtitle:
+  enable: true
+  effect: true
+  source: false
+  sub:
+    - 鍵が導く心のままに
+    - つながる心が俺の力だ！
+    - ずっと　友達だ
+    - この力　友のために使う！
+
+index_layout: 3
+index_post_content:
+  method: 2
+  length: 260
+
+toc:
+  post: true
+  page: false
+  number: false
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+post_copyright:
+  enable: false
+
+post_edit:
+  enable: false
+  url:
+
+related_post:
+  enable: true
+  limit: 4
+  date_type: created
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: false
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 王国之心梦中降生最终混合版简体中文补丁发布与开发记录，交流QQ群：1060221815
+    button:
+      enable: false
+  card_announcement:
+    enable: true
+    content: 梦中降生最终混合版PC简体中文补丁当前正式版 1.0.3 已发布
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_newest_comments:
+    enable: false
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+  card_tags:
+    enable: true
+    limit: 30
+    color: false
+    orderby: name
+    order: 1
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+    order: -1
+    limit: 8
+  card_post_series:
+    enable: false
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+readmode: true
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+lightbox: medium_zoom
+lazyload:
+  enable: true
+  native: true
+  field: site
+
+local_search:
+  enable: true
+  preload: false
+  CDN:
+
+pjax:
+  enable: true
+  exclude:
+
+instantpage: true
+
+inject:
+  head:
+  bottom:
+
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true

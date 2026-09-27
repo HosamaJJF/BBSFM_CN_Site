@@ -1,0 +1,106 @@
+:root {
+  --kh-night: #09162d;
+  --kh-blue: #315f98;
+  --kh-sky: #91c8ef;
+  --kh-gold: #e8c46a;
+}
+
+#page-header.full_page {
+  background-position: center 42%;
+}
+
+#site-title,
+#site-subtitle {
+  text-shadow: 0 3px 18px rgba(0, 0, 0, .75);
+}
+
+#nav .site-page,
+#nav #site-name {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .75);
+}
+
+.card-widget,
+.recent-post-item,
+#post,
+#page {
+  border: 1px solid rgba(110, 148, 190, .16);
+}
+
+.kh-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 13rem;
+  margin: 1rem 0;
+  padding: .8rem 1.25rem;
+  border-radius: .45rem;
+  color: #fff !important;
+  background: linear-gradient(135deg, var(--kh-blue), #17365f);
+  box-shadow: 0 .5rem 1.4rem rgba(25, 62, 105, .22);
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.kh-download-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 .75rem 1.8rem rgba(25, 62, 105, .32);
+}
+
+.post-content h2 {
+  border-bottom: 1px solid rgba(83, 125, 166, .22);
+  padding-bottom: .35rem;
+}
+
+.post-content blockquote {
+  border-left-color: var(--kh-gold);
+  background: rgba(232, 196, 106, .08);
+}
+
+/* Butterfly prepends friend cards to page content. Keep editable Markdown first. */
+.page.type-link #article-container > .flink {
+  display: flex;
+  flex-direction: column;
+}
+
+.page.type-link #article-container > .flink > .flink-page-content-marker,
+.page.type-link #article-container > .flink > .flink-page-content-marker ~ * {
+  order: -1;
+}
+
+.page.type-link #article-container > .flink > .flink-page-content-marker {
+  display: none;
+}
+
+.page.type-link #article-container > .flink > .flink-page-content-marker + * {
+  margin-bottom: 1rem;
+}
+
+/* Give long project names room without making friend cards unwieldy. */
+.page.type-link .flink-list > .flink-list-item {
+  width: calc(50% - 15px);
+  height: 112px;
+}
+
+.page.type-link .flink-item-name,
+.page.type-link .flink-item-desc {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.page.type-link .flink-item-name {
+  height: 58px;
+  padding-top: 13px;
+  font-size: 1.2em;
+  line-height: 1.35;
+}
+
+.page.type-link .flink-item-desc {
+  height: 48px;
+  padding-top: 5px;
+  line-height: 1.35;
+}
