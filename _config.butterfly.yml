@@ -29,9 +29,9 @@ footer_img: /img/top.png
 background: '#eef3f8'
 
 cover:
-  index_enable: true
-  aside_enable: true
-  archives_enable: true
+  index_enable: false
+  aside_enable: false
+  archives_enable: false
   default_cover:
     - /img/cover001.png
 
