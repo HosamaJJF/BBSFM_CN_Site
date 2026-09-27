@@ -82,7 +82,7 @@ post_edit:
   url:
 
 related_post:
-  enable: true
+  enable: false
   limit: 4
   date_type: created
 
