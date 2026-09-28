@@ -2,6 +2,7 @@ node_modules/
 public/
 .deploy_git/
 db.json
+.DS_Store
 
 *.log
 *.tmp

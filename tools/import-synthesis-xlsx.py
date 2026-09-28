@@ -1,0 +1,192 @@
+"""Convert the supplied synthesis workbook into a static Hexo article.
+
+Usage: python3 tools/import-synthesis-xlsx.py /path/to/技能魔法合成表.xlsx
+The generated article needs no spreadsheet library or browser script at build time.
+"""
+
+from __future__ import annotations
+
+import argparse
+import html
+import posixpath
+import re
+import shutil
+import zipfile
+from pathlib import Path
+from xml.etree import ElementTree as ET
+
+
+MAIN = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+OFFICE_REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+PACKAGE_REL = "http://schemas.openxmlformats.org/package/2006/relationships"
+NS = {"m": MAIN}
+SECTIONS = [("攻击", "attack"), ("魔法", "magic"), ("其他", "other"), ("合成能力", "abilities")]
+REPO = Path(__file__).resolve().parent.parent
+POST = REPO / "source/_posts/skill-magic-synthesis.md"
+DOWNLOAD = REPO / "source/downloads/skill-magic-synthesis.xlsx"
+
+
+def column_number(letters: str) -> int:
+    value = 0
+    for letter in letters:
+        value = value * 26 + ord(letter) - ord("A") + 1
+    return value
+
+
+def cell_position(ref: str) -> tuple[int, int]:
+    match = re.fullmatch(r"([A-Z]+)([0-9]+)", ref)
+    if not match:
+        raise ValueError(f"Invalid cell reference: {ref}")
+    return int(match.group(2)), column_number(match.group(1))
+
+
+def read_sheets(path: Path) -> dict[str, tuple[int, int, dict, dict, set]]:
+    sheets = {}
+    with zipfile.ZipFile(path) as archive:
+        shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+        strings = ["".join(t.text or "" for t in item.iter(f"{{{MAIN}}}t"))
+                   for item in shared_root.findall("m:si", NS)]
+        workbook = ET.fromstring(archive.read("xl/workbook.xml"))
+        rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
+        targets = {rel.attrib["Id"]: rel.attrib["Target"]
+                   for rel in rels.findall(f"{{{PACKAGE_REL}}}Relationship")}
+
+        for sheet in workbook.findall("m:sheets/m:sheet", NS):
+            target = targets[sheet.attrib[f"{{{OFFICE_REL}}}id"]].lstrip("/")
+            sheet_path = target if target.startswith("xl/") else posixpath.normpath(posixpath.join("xl", target))
+            root = ET.fromstring(archive.read(sheet_path))
+            dimension = root.find("m:dimension", NS).attrib["ref"].split(":")[-1]
+            max_row, max_col = cell_position(dimension)
+            cells = {}
+            formula_count = 0
+            for cell in root.findall("m:sheetData/m:row/m:c", NS):
+                position = cell_position(cell.attrib["r"])
+                value_node = cell.find("m:v", NS)
+                inline = cell.find("m:is", NS)
+                if cell.find("m:f", NS) is not None:
+                    formula_count += 1
+                if value_node is not None:
+                    value = value_node.text or ""
+                    if cell.attrib.get("t") == "s":
+                        value = strings[int(value)]
+                elif inline is not None:
+                    value = "".join(t.text or "" for t in inline.iter(f"{{{MAIN}}}t"))
+                else:
+                    continue
+                cells[position] = value
+
+            spans = {}
+            covered = set()
+            for merge in root.findall("m:mergeCells/m:mergeCell", NS):
+                start, end = merge.attrib["ref"].split(":")
+                first_row, first_col = cell_position(start)
+                last_row, last_col = cell_position(end)
+                spans[(first_row, first_col)] = (last_row - first_row + 1, last_col - first_col + 1)
+                for row in range(first_row, last_row + 1):
+                    for col in range(first_col, last_col + 1):
+                        if (row, col) != (first_row, first_col):
+                            covered.add((row, col))
+
+            if formula_count:
+                raise ValueError(f"{sheet.attrib['name']} contains formulas; review their cached values before publishing")
+            sheets[sheet.attrib["name"]] = (max_row, max_col, cells, spans, covered)
+    return sheets
+
+
+def render_sheet(name: str, slug: str, sheet: tuple) -> str:
+    max_row, max_col, cells, spans, covered = sheet
+    lines = [
+        f'<section class="synthesis-section" id="synthesis-{slug}">',
+        f'<h2>{html.escape(name)}</h2>',
+        '<div class="synthesis-table-wrap" role="region" tabindex="0" '
+        f'aria-label="{html.escape(name)}表格，可横向滚动">',
+        f'<table class="synthesis-table synthesis-table--{slug}">',
+        f'<caption>{html.escape(name)}（源工作表）</caption>',
+    ]
+    for row in range(1, max_row + 1):
+        positions = [(row, col) for col in range(1, max_col + 1)]
+        if not any(cells.get(position) for position in positions):
+            continued_merge = any(first_row < row < first_row + rowspan
+                                  for (first_row, _), (rowspan, _) in spans.items())
+            if not continued_merge:
+                lines.append(f'<tr class="synthesis-spacer"><td colspan="{max_col}"></td></tr>')
+                continue
+        is_header = row == 1 or (name == "合成能力" and row == 2) or (name == "其他" and row == 17)
+        lines.append('<tr class="synthesis-header-row">' if is_header else '<tr>')
+        for col in range(1, max_col + 1):
+            position = (row, col)
+            if position in covered:
+                continue
+            value = cells.get(position, "")
+            rowspan, colspan = spans.get(position, (1, 1))
+            tag = "th" if is_header or (col == 1 and value) else "td"
+            attrs = []
+            if rowspan > 1:
+                attrs.append(f'rowspan="{rowspan}"')
+            if colspan > 1:
+                attrs.append(f'colspan="{colspan}"')
+            if tag == "th":
+                attrs.append('scope="col"' if is_header else 'scope="row"')
+            if name != "合成能力" and col == 8:
+                attrs.append('class="synthesis-note"')
+            if name == "合成能力" and col == 1 and value in "ABCDEFGHIJKLMNOP" and len(value) == 1:
+                attrs.append(f'id="ability-row-{value.lower()}"')
+            content = html.escape(value)
+            if name != "合成能力" and col == 4 and len(value) == 1 and value in "ABCDEFGHIJKLMNOP":
+                content = f'<a href="#ability-row-{value.lower()}" title="查看合成能力 {content} 行">{content}</a>'
+            if col in (5, 6, 7) and name != "合成能力" and value in ("○", "×"):
+                attrs.append('class="synthesis-yes"' if value == "○" else 'class="synthesis-no"')
+                content = f'<span aria-label="{"可" if value == "○" else "不可"}">{content}</span>'
+            suffix = " " + " ".join(attrs) if attrs else ""
+            lines.append(f'<{tag}{suffix}>{content}</{tag}>')
+        lines.append('</tr>')
+    lines.extend(['</table>', '</div>', '</section>'])
+    return "\n".join(lines)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("workbook", type=Path)
+    args = parser.parse_args()
+    sheets = read_sheets(args.workbook)
+    missing = [name for name, _ in SECTIONS if name not in sheets]
+    if missing:
+        raise ValueError(f"Missing worksheet(s): {', '.join(missing)}")
+    content = """---
+title: 技能与魔法合成表(文本同步至1.0.3版补丁)
+date: 2026-09-28 21:00:00
+updated: 2026-09-28 21:00:00
+categories:
+  - 补丁发布
+tags:
+  - BBSFM
+  - 合成表
+  - 技能魔法
+description: 攻击、魔法、其他指令及合成能力对照表。
+---
+
+感谢群友**透明人**整理翻译的技能合成表，本表会随着未来的补丁文本进行更新。
+
+点击下方按钮可以快速跳转至对应板块。
+
+<!-- more -->
+
+<nav class="synthesis-nav" aria-label="合成表目录">
+  <a href="#synthesis-attack">攻击</a>
+  <a href="#synthesis-magic">魔法</a>
+  <a href="#synthesis-other">其他</a>
+  <a href="#synthesis-abilities">合成能力</a>
+</nav>
+
+[下载原始 Excel 表格](/downloads/skill-magic-synthesis.xlsx)
+
+"""
+    content += "\n\n".join(render_sheet(name, slug, sheets[name]) for name, slug in SECTIONS) + "\n"
+    POST.write_text(content, encoding="utf-8")
+    DOWNLOAD.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(args.workbook, DOWNLOAD)
+    print(f"Wrote {POST} and {DOWNLOAD}")
+
+
+if __name__ == "__main__":
+    main()

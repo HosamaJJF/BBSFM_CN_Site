@@ -104,3 +104,139 @@
   padding-top: 5px;
   line-height: 1.35;
 }
+
+/* Keep the four source worksheets readable inside a narrow article column. */
+#article-container .synthesis-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  margin: 1.25rem 0;
+}
+
+#article-container .synthesis-nav a {
+  display: inline-block;
+  padding: .38rem .8rem;
+  border: 1px solid rgba(83, 125, 166, .3);
+  border-radius: 999px;
+  background: rgba(145, 200, 239, .12);
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+#article-container .synthesis-nav a:hover,
+#article-container .synthesis-nav a:focus-visible {
+  background: rgba(145, 200, 239, .28);
+}
+
+#article-container .synthesis-section {
+  margin-top: 2.25rem;
+  scroll-margin-top: 5rem;
+}
+
+#article-container .synthesis-table-wrap {
+  --synthesis-grid: #aab8c7;
+  max-width: 100%;
+  margin: 1rem 0 2rem;
+  overflow-x: auto;
+  border: 1px solid var(--synthesis-grid);
+  border-radius: .5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+#article-container .synthesis-table {
+  width: 100%;
+  min-width: 800px;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: .88rem;
+  line-height: 1.5;
+}
+
+#article-container .synthesis-table--abilities {
+  min-width: 1080px;
+}
+
+#article-container .synthesis-table caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+#article-container .synthesis-table th,
+#article-container .synthesis-table td {
+  padding: .48rem .62rem;
+  border: 1px solid var(--synthesis-grid);
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#article-container .synthesis-table .synthesis-header-row th,
+#article-container .synthesis-table .synthesis-header-row td {
+  color: #fff;
+  background: #254b78;
+  font-weight: 700;
+}
+
+#article-container .synthesis-table th[scope="row"] {
+  color: var(--kh-blue);
+  background: rgba(145, 200, 239, .12);
+  font-weight: 700;
+}
+
+#article-container .synthesis-table .synthesis-yes,
+#article-container .synthesis-table .synthesis-no,
+#article-container .synthesis-table--abilities th[scope="row"] {
+  text-align: center;
+}
+
+#article-container .synthesis-table .synthesis-yes {
+  color: #21734c;
+  font-weight: 700;
+}
+
+#article-container .synthesis-table .synthesis-no {
+  color: #a34141;
+  font-weight: 700;
+}
+
+#article-container .synthesis-table .synthesis-note {
+  min-width: 10rem;
+  white-space: normal;
+}
+
+#article-container .synthesis-table .synthesis-spacer td {
+  height: .7rem;
+  padding: 0;
+  background: rgba(83, 125, 166, .07);
+}
+
+#article-container .synthesis-table a {
+  font-weight: 700;
+}
+
+#article-container .synthesis-table [id^="ability-row-"] {
+  scroll-margin-top: 5rem;
+}
+
+[data-theme="dark"] #article-container .synthesis-table-wrap {
+  --synthesis-grid: #66788c;
+}
+
+[data-theme="dark"] #article-container .synthesis-table th[scope="row"] {
+  color: var(--kh-sky);
+  background: rgba(145, 200, 239, .1);
+}
+
+[data-theme="dark"] #article-container .synthesis-table .synthesis-yes {
+  color: #82d5a3;
+}
+
+[data-theme="dark"] #article-container .synthesis-table .synthesis-no {
+  color: #f09696;
+}
