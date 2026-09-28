@@ -39,7 +39,7 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 <th scope="col">泰</th>
 <th scope="col">维</th>
 <th scope="col">雅</th>
-<th scope="col" class="synthesis-note">備考</th>
+<th scope="col" class="synthesis-note">备注</th>
 </tr>
 <tr>
 <th rowspan="3" scope="row">最终破击</th>
@@ -112,7 +112,7 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 </tr>
 <tr>
 <th rowspan="3" scope="row">黑暗迷雾</th>
-<td>火焰冲刺</td>
+<td rowspan="2">火焰冲刺</td>
 <td>中零重力</td>
 <td><a href="#ability-row-d" title="查看合成能力 D 行">D</a></td>
 <td rowspan="3" class="synthesis-yes"><span aria-label="可">○</span></td>
@@ -121,7 +121,6 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 <td rowspan="3" class="synthesis-note"></td>
 </tr>
 <tr>
-<td></td>
 <td>致盲</td>
 <td><a href="#ability-row-a" title="查看合成能力 A 行">A</a></td>
 </tr>
@@ -163,7 +162,7 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 </tr>
 <tr>
 <th rowspan="2" scope="row">斩铁剑</th>
-<td>大停止</td>
+<td rowspan="2">大停止</td>
 <td>黑暗迷雾</td>
 <td><a href="#ability-row-b" title="查看合成能力 B 行">B</a></td>
 <td rowspan="2" class="synthesis-yes"><span aria-label="可">○</span></td>
@@ -172,7 +171,6 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 <td rowspan="2" class="synthesis-note"></td>
 </tr>
 <tr>
-<td></td>
 <td>音速猛攻</td>
 <td><a href="#ability-row-f" title="查看合成能力 F 行">F</a></td>
 </tr>
@@ -774,7 +772,7 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 <th scope="col">泰</th>
 <th scope="col">维</th>
 <th scope="col">雅</th>
-<th scope="col" class="synthesis-note">備考</th>
+<th scope="col" class="synthesis-note">备注</th>
 </tr>
 <tr>
 <th rowspan="4" scope="row">中火焰</th>
@@ -1555,18 +1553,18 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 
 <section class="synthesis-section" id="synthesis-other">
 <h2>其他</h2>
-<div class="synthesis-table-wrap" role="region" tabindex="0" aria-label="其他表格，可横向滚动">
+<div class="synthesis-table-wrap" role="region" tabindex="0" aria-label="其他表格 1，可横向滚动">
 <table class="synthesis-table synthesis-table--other">
-<caption>其他（源工作表）</caption>
+<caption>其他表格 1（源工作表）</caption>
 <tr class="synthesis-header-row">
 <th scope="col">名称</th>
 <th scope="col">SLOT1</th>
 <th scope="col">SLOT2</th>
 <th scope="col">对应合成行</th>
-<th scope="col">テ</th>
-<th scope="col">ヴ</th>
-<th scope="col">ア</th>
-<th scope="col" class="synthesis-note">備考</th>
+<th scope="col">泰</th>
+<th scope="col">维</th>
+<th scope="col">雅</th>
+<th scope="col" class="synthesis-note">备注</th>
 </tr>
 <tr>
 <th rowspan="3" scope="row">连击滑行</th>
@@ -1646,18 +1644,20 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 <td>大雷电</td>
 <td><a href="#ability-row-l" title="查看合成能力 L 行">L</a></td>
 </tr>
-<tr class="synthesis-spacer"><td colspan="8"></td></tr>
-<tr class="synthesis-spacer"><td colspan="8"></td></tr>
-<tr class="synthesis-spacer"><td colspan="8"></td></tr>
+</table>
+</div>
+<div class="synthesis-table-wrap" role="region" tabindex="0" aria-label="其他表格 2，可横向滚动">
+<table class="synthesis-table synthesis-table--other">
+<caption>其他表格 2（源工作表）</caption>
 <tr class="synthesis-header-row">
 <th scope="col">名称</th>
 <th scope="col">SLOT1</th>
 <th scope="col">SLOT2</th>
 <th scope="col">对应合成行</th>
-<th scope="col">テ</th>
-<th scope="col">ヴ</th>
-<th scope="col">ア</th>
-<th scope="col" class="synthesis-note">備考</th>
+<th scope="col">泰</th>
+<th scope="col">维</th>
+<th scope="col">雅</th>
+<th scope="col" class="synthesis-note">备注</th>
 </tr>
 <tr>
 <th rowspan="2" scope="row">恢复格挡</th>

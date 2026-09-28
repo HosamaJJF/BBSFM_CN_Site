@@ -98,49 +98,75 @@ def render_sheet(name: str, slug: str, sheet: tuple) -> str:
     lines = [
         f'<section class="synthesis-section" id="synthesis-{slug}">',
         f'<h2>{html.escape(name)}</h2>',
-        '<div class="synthesis-table-wrap" role="region" tabindex="0" '
-        f'aria-label="{html.escape(name)}表格，可横向滚动">',
-        f'<table class="synthesis-table synthesis-table--{slug}">',
-        f'<caption>{html.escape(name)}（源工作表）</caption>',
     ]
-    for row in range(1, max_row + 1):
+
+    def is_blank_row(row: int) -> bool:
         positions = [(row, col) for col in range(1, max_col + 1)]
-        if not any(cells.get(position) for position in positions):
-            continued_merge = any(first_row < row < first_row + rowspan
-                                  for (first_row, _), (rowspan, _) in spans.items())
-            if not continued_merge:
+        return not any(cells.get(position) for position in positions) and not any(
+            first_row < row < first_row + rowspan
+            for (first_row, _), (rowspan, _) in spans.items()
+        )
+
+    table_ranges = []
+    first_row = 1
+    row = 1
+    while row <= max_row:
+        if name == "其他" and is_blank_row(row):
+            next_row = row
+            while next_row <= max_row and is_blank_row(next_row):
+                next_row += 1
+            if next_row - row >= 3 and next_row <= max_row:
+                table_ranges.append((first_row, row - 1))
+                first_row = next_row
+            row = next_row
+        else:
+            row += 1
+    table_ranges.append((first_row, max_row))
+
+    for part, (first_row, last_row) in enumerate(table_ranges, start=1):
+        label = f"{name}表格" if len(table_ranges) == 1 else f"{name}表格 {part}"
+        caption = name if len(table_ranges) == 1 else label
+        lines.extend([
+            '<div class="synthesis-table-wrap" role="region" tabindex="0" '
+            f'aria-label="{html.escape(label)}，可横向滚动">',
+            f'<table class="synthesis-table synthesis-table--{slug}">',
+            f'<caption>{html.escape(caption)}（源工作表）</caption>',
+        ])
+        for row in range(first_row, last_row + 1):
+            if is_blank_row(row):
                 lines.append(f'<tr class="synthesis-spacer"><td colspan="{max_col}"></td></tr>')
                 continue
-        is_header = row == 1 or (name == "合成能力" and row == 2) or (name == "其他" and row == 17)
-        lines.append('<tr class="synthesis-header-row">' if is_header else '<tr>')
-        for col in range(1, max_col + 1):
-            position = (row, col)
-            if position in covered:
-                continue
-            value = cells.get(position, "")
-            rowspan, colspan = spans.get(position, (1, 1))
-            tag = "th" if is_header or (col == 1 and value) else "td"
-            attrs = []
-            if rowspan > 1:
-                attrs.append(f'rowspan="{rowspan}"')
-            if colspan > 1:
-                attrs.append(f'colspan="{colspan}"')
-            if tag == "th":
-                attrs.append('scope="col"' if is_header else 'scope="row"')
-            if name != "合成能力" and col == 8:
-                attrs.append('class="synthesis-note"')
-            if name == "合成能力" and col == 1 and value in "ABCDEFGHIJKLMNOP" and len(value) == 1:
-                attrs.append(f'id="ability-row-{value.lower()}"')
-            content = html.escape(value)
-            if name != "合成能力" and col == 4 and len(value) == 1 and value in "ABCDEFGHIJKLMNOP":
-                content = f'<a href="#ability-row-{value.lower()}" title="查看合成能力 {content} 行">{content}</a>'
-            if col in (5, 6, 7) and name != "合成能力" and value in ("○", "×"):
-                attrs.append('class="synthesis-yes"' if value == "○" else 'class="synthesis-no"')
-                content = f'<span aria-label="{"可" if value == "○" else "不可"}">{content}</span>'
-            suffix = " " + " ".join(attrs) if attrs else ""
-            lines.append(f'<{tag}{suffix}>{content}</{tag}>')
-        lines.append('</tr>')
-    lines.extend(['</table>', '</div>', '</section>'])
+            is_header = row == first_row or (name == "合成能力" and row == 2)
+            lines.append('<tr class="synthesis-header-row">' if is_header else '<tr>')
+            for col in range(1, max_col + 1):
+                position = (row, col)
+                if position in covered:
+                    continue
+                value = cells.get(position, "")
+                rowspan, colspan = spans.get(position, (1, 1))
+                tag = "th" if is_header or (col == 1 and value) else "td"
+                attrs = []
+                if rowspan > 1:
+                    attrs.append(f'rowspan="{rowspan}"')
+                if colspan > 1:
+                    attrs.append(f'colspan="{colspan}"')
+                if tag == "th":
+                    attrs.append('scope="col"' if is_header else 'scope="row"')
+                if name != "合成能力" and col == 8:
+                    attrs.append('class="synthesis-note"')
+                if name == "合成能力" and col == 1 and value in "ABCDEFGHIJKLMNOP" and len(value) == 1:
+                    attrs.append(f'id="ability-row-{value.lower()}"')
+                content = html.escape(value)
+                if name != "合成能力" and col == 4 and len(value) == 1 and value in "ABCDEFGHIJKLMNOP":
+                    content = f'<a href="#ability-row-{value.lower()}" title="查看合成能力 {content} 行">{content}</a>'
+                if col in (5, 6, 7) and name != "合成能力" and value in ("○", "×"):
+                    attrs.append('class="synthesis-yes"' if value == "○" else 'class="synthesis-no"')
+                    content = f'<span aria-label="{"可" if value == "○" else "不可"}">{content}</span>'
+                suffix = " " + " ".join(attrs) if attrs else ""
+                lines.append(f'<{tag}{suffix}>{content}</{tag}>')
+            lines.append('</tr>')
+        lines.extend(['</table>', '</div>'])
+    lines.append('</section>')
     return "\n".join(lines)
 
 
