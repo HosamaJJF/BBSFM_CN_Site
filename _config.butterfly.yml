@@ -111,7 +111,11 @@ aside:
       enable: false
   card_announcement:
     enable: true
-    content: 梦中降生最终混合版PC简体中文补丁当前正式版 1.0.3 已发布
+    content: |
+      梦中降生最终混合版PC简体中文补丁当前正式版 1.0.3 已发布<br>
+      <a href="/posts/patch-release/">补丁发布贴</a><br>
+      <a href="/posts/bbs-save-text-tool-release/">存档修复工具</a><br>
+      <a href="/posts/skill-magic-synthesis/">汉化版合成表</a>
   card_recent_post:
     enable: true
     limit: 5
