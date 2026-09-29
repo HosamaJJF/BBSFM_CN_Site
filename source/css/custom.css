@@ -177,13 +177,19 @@
 }
 
 #article-container .synthesis-table .synthesis-name-cn,
-#article-container .synthesis-table .synthesis-name-ja {
+#article-container .synthesis-table .synthesis-name-ja,
+#article-container .synthesis-table .synthesis-name-en {
   display: block;
   white-space: nowrap;
   line-height: 1.4;
 }
 
 #article-container .synthesis-table .synthesis-name-ja {
+  font-size: .94em;
+  font-weight: 400;
+}
+
+#article-container .synthesis-table .synthesis-name-en {
   font-size: .94em;
   font-weight: 400;
 }
