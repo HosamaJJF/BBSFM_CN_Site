@@ -55,12 +55,18 @@ def read_sheets(path: Path) -> dict[str, tuple[int, int, dict, dict, set]]:
             target = targets[sheet.attrib[f"{{{OFFICE_REL}}}id"]].lstrip("/")
             sheet_path = target if target.startswith("xl/") else posixpath.normpath(posixpath.join("xl", target))
             root = ET.fromstring(archive.read(sheet_path))
-            dimension = root.find("m:dimension", NS).attrib["ref"].split(":")[-1]
-            max_row, max_col = cell_position(dimension)
+            dimension = root.find("m:dimension", NS)
+            if dimension is None:
+                max_row, max_col = 0, 0
+            else:
+                max_row, max_col = cell_position(dimension.attrib["ref"].split(":")[-1])
             cells = {}
             formula_count = 0
+            for row_node in root.findall("m:sheetData/m:row", NS):
+                max_row = max(max_row, int(row_node.attrib["r"]))
             for cell in root.findall("m:sheetData/m:row/m:c", NS):
                 position = cell_position(cell.attrib["r"])
+                max_row, max_col = max(max_row, position[0]), max(max_col, position[1])
                 value_node = cell.find("m:v", NS)
                 inline = cell.find("m:is", NS)
                 if cell.find("m:f", NS) is not None:
@@ -81,6 +87,7 @@ def read_sheets(path: Path) -> dict[str, tuple[int, int, dict, dict, set]]:
                 start, end = merge.attrib["ref"].split(":")
                 first_row, first_col = cell_position(start)
                 last_row, last_col = cell_position(end)
+                max_row, max_col = max(max_row, last_row), max(max_col, last_col)
                 spans[(first_row, first_col)] = (last_row - first_row + 1, last_col - first_col + 1)
                 for row in range(first_row, last_row + 1):
                     for col in range(first_col, last_col + 1):
@@ -156,7 +163,18 @@ def render_sheet(name: str, slug: str, sheet: tuple) -> str:
                     attrs.append('class="synthesis-note"')
                 if name == "合成能力" and col == 1 and value in "ABCDEFGHIJKLMNOP" and len(value) == 1:
                     attrs.append(f'id="ability-row-{value.lower()}"')
-                content = html.escape(value)
+                is_name = (
+                    (name == "合成能力" and ((is_header and 2 <= col <= 10) or (not is_header and 2 <= col <= 8)))
+                    or (name != "合成能力" and not is_header and col <= 3)
+                )
+                if is_name and "\n" in value:
+                    chinese, japanese = value.split("\n", 1)
+                    content = (
+                        f'<span class="synthesis-name-cn">{html.escape(chinese)}</span>'
+                        f'<span class="synthesis-name-ja" lang="ja">{html.escape(japanese)}</span>'
+                    )
+                else:
+                    content = html.escape(value)
                 if name != "合成能力" and col == 4 and len(value) == 1 and value in "ABCDEFGHIJKLMNOP":
                     content = f'<a href="#ability-row-{value.lower()}" title="查看合成能力 {content} 行">{content}</a>'
                 if col in (5, 6, 7) and name != "合成能力" and value in ("○", "×"):
@@ -207,10 +225,15 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 [下载原始 Excel 表格](/downloads/skill-magic-synthesis.xlsx)
 
 """
+    if POST.exists():
+        existing = POST.read_text(encoding="utf-8")
+        if '<section class="synthesis-section"' in existing:
+            content = existing.split('<section class="synthesis-section"', 1)[0]
     content += "\n\n".join(render_sheet(name, slug, sheets[name]) for name, slug in SECTIONS) + "\n"
     POST.write_text(content, encoding="utf-8")
     DOWNLOAD.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(args.workbook, DOWNLOAD)
+    if args.workbook.resolve() != DOWNLOAD.resolve():
+        shutil.copy2(args.workbook, DOWNLOAD)
     print(f"Wrote {POST} and {DOWNLOAD}")
 
 
