@@ -43,9 +43,11 @@ def cell_position(ref: str) -> tuple[int, int]:
 def read_sheets(path: Path) -> dict[str, tuple[int, int, dict, dict, set]]:
     sheets = {}
     with zipfile.ZipFile(path) as archive:
-        shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
-        strings = ["".join(t.text or "" for t in item.iter(f"{{{MAIN}}}t"))
-                   for item in shared_root.findall("m:si", NS)]
+        strings = []
+        if "xl/sharedStrings.xml" in archive.namelist():
+            shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+            strings = ["".join(t.text or "" for t in item.iter(f"{{{MAIN}}}t"))
+                       for item in shared_root.findall("m:si", NS)]
         workbook = ET.fromstring(archive.read("xl/workbook.xml"))
         rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
         targets = {rel.attrib["Id"]: rel.attrib["Target"]
@@ -75,6 +77,8 @@ def read_sheets(path: Path) -> dict[str, tuple[int, int, dict, dict, set]]:
                     value = value_node.text or ""
                     if cell.attrib.get("t") == "s":
                         value = strings[int(value)]
+                    elif sheet.attrib["name"] != "合成能力" and position[1] == 7 and cell.attrib.get("t") in (None, "n"):
+                        value = f"{float(value) * 100:g}%"
                 elif inline is not None:
                     value = "".join(t.text or "" for t in inline.iter(f"{{{MAIN}}}t"))
                 else:
@@ -102,6 +106,8 @@ def read_sheets(path: Path) -> dict[str, tuple[int, int, dict, dict, set]]:
 
 def render_sheet(name: str, slug: str, sheet: tuple) -> str:
     max_row, max_col, cells, spans, covered = sheet
+    recipe_table = name != "合成能力"
+    grouped_header = recipe_table and spans.get((1, 2)) == (1, 2)
     lines = [
         f'<section class="synthesis-section" id="synthesis-{slug}">',
         f'<h2>{html.escape(name)}</h2>',
@@ -143,7 +149,7 @@ def render_sheet(name: str, slug: str, sheet: tuple) -> str:
             if is_blank_row(row):
                 lines.append(f'<tr class="synthesis-spacer"><td colspan="{max_col}"></td></tr>')
                 continue
-            is_header = row == first_row or (name == "合成能力" and row == 2)
+            is_header = row == first_row or (row == first_row + 1 and (not recipe_table or grouped_header))
             lines.append('<tr class="synthesis-header-row">' if is_header else '<tr>')
             for col in range(1, max_col + 1):
                 position = (row, col)
@@ -158,26 +164,33 @@ def render_sheet(name: str, slug: str, sheet: tuple) -> str:
                 if colspan > 1:
                     attrs.append(f'colspan="{colspan}"')
                 if tag == "th":
-                    attrs.append('scope="col"' if is_header else 'scope="row"')
-                if name != "合成能力" and col == 8:
+                    attrs.append(f'scope="{"colgroup" if colspan > 1 else "col"}"' if is_header else 'scope="row"')
+                if recipe_table and col == 11:
                     attrs.append('class="synthesis-note"')
+                elif recipe_table and col in (3, 5, 7):
+                    attrs.append('class="synthesis-rate"' if col == 7 else 'class="synthesis-level"')
                 if name == "合成能力" and col == 1 and value in "ABCDEFGHIJKLMNOP" and len(value) == 1:
                     attrs.append(f'id="ability-row-{value.lower()}"')
                 is_name = (
                     (name == "合成能力" and ((is_header and 2 <= col <= 10) or (not is_header and 2 <= col <= 8)))
-                    or (name != "合成能力" and not is_header and col <= 3)
+                    or (recipe_table and not is_header and col in (1, 2, 4))
                 )
                 if is_name and "\n" in value:
-                    chinese, japanese = value.split("\n", 1)
+                    names = value.split("\n")
+                    chinese, japanese = names[:2]
                     content = (
                         f'<span class="synthesis-name-cn">{html.escape(chinese)}</span>'
                         f'<span class="synthesis-name-ja" lang="ja">{html.escape(japanese)}</span>'
                     )
+                    if len(names) > 2:
+                        content += f'<span class="synthesis-name-en" lang="en">{html.escape(names[2])}</span>'
                 else:
-                    content = html.escape(value)
-                if name != "合成能力" and col == 4 and len(value) == 1 and value in "ABCDEFGHIJKLMNOP":
+                    content = html.escape(value).replace("\n", "<br>")
+                if recipe_table and col == 7 and value == "未确认":
+                    content += '<br><small>Wiki 未收录此配方</small>'
+                if recipe_table and col == 6 and len(value) == 1 and value in "ABCDEFGHIJKLMNOP":
                     content = f'<a href="#ability-row-{value.lower()}" title="查看合成能力 {content} 行">{content}</a>'
-                if col in (5, 6, 7) and name != "合成能力" and value in ("○", "×"):
+                if col in (8, 9, 10) and recipe_table and value in ("○", "×"):
                     attrs.append('class="synthesis-yes"' if value == "○" else 'class="synthesis-no"')
                     content = f'<span aria-label="{"可" if value == "○" else "不可"}">{content}</span>'
                 suffix = " " + " ".join(attrs) if attrs else ""

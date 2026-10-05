@@ -133,6 +133,11 @@
   scroll-margin-top: 5rem;
 }
 
+#article-container .synthesis-guide {
+  margin-top: 2.25rem;
+  scroll-margin-top: 5rem;
+}
+
 #article-container .synthesis-table-wrap {
   --synthesis-grid: #aab8c7;
   max-width: 100%;
@@ -141,6 +146,75 @@
   border: 1px solid var(--synthesis-grid);
   border-radius: .5rem;
   -webkit-overflow-scrolling: touch;
+}
+
+#article-container .synthesis-table-panel {
+  margin: 1rem 0 2rem;
+}
+
+#article-container .synthesis-table-panel .synthesis-table-wrap {
+  margin: 0;
+}
+
+/* Butterfly adds its own table wrapper. Keep one scrolling container. */
+#article-container .synthesis-table-wrap > .table-wrap {
+  overflow: visible;
+  margin: 0;
+}
+
+#article-container .synthesis-scroll-controls {
+  position: sticky;
+  top: 4.5rem;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .55rem .7rem;
+  border: 1px solid #aab8c7;
+  border-radius: .5rem;
+  background: var(--card-bg, #fff);
+  box-shadow: 0 2px 8px rgba(37, 75, 120, .12);
+  font-size: .85rem;
+}
+
+#article-container .synthesis-scroll-controls[hidden] {
+  display: none;
+}
+
+#article-container .synthesis-scroll-label {
+  flex-shrink: 0;
+}
+
+#article-container .synthesis-scroll-controls button {
+  flex-shrink: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  border: 1px solid #aab8c7;
+  border-radius: .3rem;
+  background: transparent;
+  color: var(--font-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#article-container .synthesis-scroll-controls button:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+#article-container .synthesis-scroll-controls input {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  accent-color: #467ba9;
+  cursor: ew-resize;
+}
+
+#article-container .synthesis-scroll-controls :focus-visible {
+  outline: 2px solid #467ba9;
+  outline-offset: 3px;
 }
 
 #article-container .synthesis-table {
@@ -156,6 +230,25 @@
 
 #article-container .synthesis-table--abilities {
   min-width: 1080px;
+}
+
+#article-container .synthesis-table-wrap--chance {
+  max-width: 32rem;
+}
+
+#article-container .synthesis-table--chance {
+  min-width: 0;
+}
+
+#article-container .synthesis-table.synthesis-table--chance th,
+#article-container .synthesis-table.synthesis-table--chance td,
+#article-container .synthesis-table .synthesis-level {
+  text-align: center;
+}
+
+#article-container .synthesis-table .synthesis-rate {
+  min-width: 10rem;
+  white-space: normal;
 }
 
 #article-container .synthesis-table caption {
@@ -199,6 +292,7 @@
   color: #fff;
   background: #254b78;
   font-weight: 700;
+  text-align: center;
 }
 
 #article-container .synthesis-table th[scope="row"] {
