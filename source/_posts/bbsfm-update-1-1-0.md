@@ -8,7 +8,7 @@ tags:
   - BBSFM
   - 更新日志
   - 1.1.0
-cover: /img/cover014.png
+cover: /img/cover003.png
 description: 安装程序后端改用Python，兼容Wine转译环境，完成Event文本二次校对并新增荆南麦圆体选项。
 ---
 
