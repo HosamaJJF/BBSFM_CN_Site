@@ -1,7 +1,7 @@
 ---
 title: 王国之心梦中降生最终混合版PC简体中文补丁正式版发布
 date: 2026-09-20 22:40:55
-updated: 2026-09-23 22:40:55
+updated: 2026-10-06 10:55:00
 categories:
   - 补丁发布
 tags:
@@ -24,10 +24,10 @@ sticky: 100
 
 | 项目 | 内容 |
 | --- | --- |
-| 当前版本 | `1.0.3` |
-| 发布日期 | `2026年9月23日` |
-| 文件名称 | `BBSFM_CN_1.0.3.zip` |
-| 适用平台 | `Windows · Steam / Epic 日版` |
+| 当前版本 | `1.1.0` |
+| 发布日期 | `2026年10月6日` |
+| 文件名称 | `BBSFM_CN_1.1.0.zip` |
+| 适用平台 | `Windows · Steam / Epic 日版 已兼容wine转移环境` |
 
 <a class="kh-download-button" href="https://pan.baidu.com/s/1b4I1_13DBNt32Wv1zfcMxg?pwd=9j8m">百度网盘下载</a> <a class="kh-download-button" href="https://pan.quark.cn/s/38bdc01db615?pwd=bfUC">夸克网盘下载</a>
 
@@ -76,4 +76,4 @@ sticky: 100
 
 本次汉化由Hosama_-帆-负责主持，在广大群友同好的帮助下共同完成。特别感谢参与校对的RsVv_阿空和另一位匿名大佬、提供测试反馈的Crazy_Bob和提供全流程录播的灰流晴大佬，还有一同技术交流的其他几部作品汉化人员SteinsGateON、LRe6、進擊の鴻桑。没有广大同好的协助，本项目无法取得如此迅速的进展。
 
-中文字形来源于 HarmonyOS Sans SC，并保留相应许可声明。本项目为非官方同人本地化补丁，请支持正版游戏。
+使用了来源于 `HarmonyOS Sans SC` 和 `荆南麦圆体` 的中文字形，并保留相应许可声明。本项目为非官方同人本地化补丁，请支持正版游戏。
