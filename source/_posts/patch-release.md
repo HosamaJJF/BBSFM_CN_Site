@@ -24,9 +24,9 @@ sticky: 100
 
 | 项目 | 内容 |
 | --- | --- |
-| 当前版本 | `1.1.0` |
+| 当前版本 | `1.1.2` |
 | 发布日期 | `2026年10月6日` |
-| 文件名称 | `BBSFM_CN_1.1.0.zip` |
+| 文件名称 | `BBSFM_CN_1.1.2.zip` |
 | 适用平台 | `Windows · Steam / Epic 日版 已兼容wine转移环境` |
 
 <a class="kh-download-button" href="https://pan.baidu.com/s/1b4I1_13DBNt32Wv1zfcMxg?pwd=9j8m">百度网盘下载</a> <a class="kh-download-button" href="https://pan.quark.cn/s/38bdc01db615?pwd=bfUC">夸克网盘下载</a>
