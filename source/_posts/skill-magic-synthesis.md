@@ -25,7 +25,7 @@ description: 攻击、魔法、其他指令的合成等级、成功率与能力�
   <a href="#synthesis-abilities">合成能力</a>
 </nav>
 
-[下载 Excel 合成表（含等级与成功率）](/downloads/skill-magic-synthesis.xlsx)
+<a href="/downloads/skill-magic-synthesis.xlsx" download data-no-instant>下载 Excel 合成表（含等级与成功率）</a>
 
 <section class="synthesis-guide" id="synthesis-mechanics">
 <h2>合成机制说明</h2>

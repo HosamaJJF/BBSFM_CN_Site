@@ -235,7 +235,7 @@ description: 攻击、魔法、其他指令及合成能力对照表。
   <a href="#synthesis-abilities">合成能力</a>
 </nav>
 
-[下载原始 Excel 表格](/downloads/skill-magic-synthesis.xlsx)
+<a href="/downloads/skill-magic-synthesis.xlsx" download data-no-instant>下载原始 Excel 表格</a>
 
 """
     if POST.exists():

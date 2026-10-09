@@ -165,6 +165,7 @@ local_search:
 pjax:
   enable: true
   exclude:
+    - /downloads/skill-magic-synthesis.xlsx
 
 instantpage: true
 
