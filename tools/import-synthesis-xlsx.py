@@ -224,11 +224,12 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 
 感谢群友**透明人**整理翻译的技能合成表，本表会随着未来的补丁文本进行更新。
 
-点击下方按钮可以快速跳转至对应板块。点击`对应合成行`列中的字母可以跳转查询能力表的对应位置。
+可在「合成查询」中按指令或能力查找配方，并筛选角色和希望附带的能力。点击原表中的中文指令名或能力名也能直接查询；点击`对应合成行`列中的字母可以跳转查询能力表的对应位置。
 
 <!-- more -->
 
 <nav class="synthesis-nav" aria-label="合成表目录">
+  <a href="#synthesis-search">合成查询</a>
   <a href="#synthesis-attack">攻击</a>
   <a href="#synthesis-magic">魔法</a>
   <a href="#synthesis-other">其他</a>
@@ -236,6 +237,12 @@ description: 攻击、魔法、其他指令及合成能力对照表。
 </nav>
 
 <a href="/downloads/skill-magic-synthesis.xlsx" download data-no-instant>下载原始 Excel 表格</a>
+
+<section class="synthesis-search" id="synthesis-search" aria-labelledby="synthesis-search-title">
+<h2 id="synthesis-search-title">合成查询</h2>
+<p>想做出某个指令，或获得某种能力？选择查询方式，再输入名称即可。支持中文、日文和英文。</p>
+<div data-synthesis-search><p>查询功能需要启用 JavaScript；也可以继续查看下方完整合成表。</p></div>
+</section>
 
 """
     if POST.exists():
