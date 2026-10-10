@@ -1,0 +1,1155 @@
+{
+  "format": 1,
+  "checked_at": "2026-10-10T14:33:06.743686+00:00",
+  "scope": "BBS character-specific world parameters only; no KH1/KH2/KH3 locations.",
+  "world_japanese": {
+    "Enchanted Dominion": "エンチャンテッド・ドミニオン",
+    "Castle of Dreams": "キャッスル・オブ・ドリーム",
+    "Dwarf Woodlands": "ドワーフ・ウッドランド",
+    "Mysterious Tower": "ミステリアス・タワー",
+    "Radiant Garden": "レイディアントガーデン",
+    "Disney Town": "ディズニータウン",
+    "Olympus Coliseum": "オリンポスコロシアム",
+    "Deep Space": "ディープスペース",
+    "Neverland": "ネバーランド",
+    "Keyblade Graveyard": "キーブレード墓場",
+    "Land of Departure": "旅立ちの地",
+    "Realm of Darkness": "闇の世界",
+    "Mirage Arena": "ミラージュアリーナ"
+  },
+  "enemies": {
+    "Shadow": {
+      "source_url": "https://www.khwiki.com/Shadow",
+      "revision": 921113,
+      "revision_timestamp": "2026-09-09T22:56:18Z",
+      "worlds_by_character": {
+        "Aqua": [
+          "Realm of Darkness"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1A": "Realm of Darkness",
+        "BBSworldA": "Realm of Darkness"
+      }
+    },
+    "Neoshadow": {
+      "source_url": "https://www.khwiki.com/Neoshadow",
+      "revision": 921092,
+      "revision_timestamp": "2026-09-09T20:32:39Z",
+      "worlds_by_character": {
+        "Aqua": [
+          "Realm of Darkness"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1A": "Realm of Darkness",
+        "BBSworldA": "Realm of Darkness"
+      }
+    },
+    "Darkball": {
+      "source_url": "https://www.khwiki.com/Darkball",
+      "revision": 921112,
+      "revision_timestamp": "2026-09-09T22:55:46Z",
+      "worlds_by_character": {
+        "Aqua": [
+          "Realm of Darkness"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1A": "Realm of Darkness",
+        "BBSworldA": "Realm of Darkness"
+      }
+    },
+    "Flood": {
+      "source_url": "https://www.khwiki.com/Flood",
+      "revision": 914233,
+      "revision_timestamp": "2026-05-12T18:04:28Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Mysterious Tower",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Castle of Dreams",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Castle of Dreams",
+        "BBSloc3T": "Dwarf Woodlands",
+        "BBSloc4T": "Mysterious Tower",
+        "BBSloc5T": "Radiant Garden",
+        "BBSloc6T": "Disney Town",
+        "BBSloc7T": "Olympus Coliseum",
+        "BBSloc8T": "Neverland",
+        "BBSloc9T": "Keyblade Graveyard",
+        "BBSworldT": "Enchanted Dominion, Castle of Dreams, Dwarf Woodlands, Mysterious Tower, Radiant Garden, Disney Town, Olympus Coliseum, Neverland, Keyblade Graveyard",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Castle of Dreams",
+        "BBSloc3V": "Enchanted Dominion",
+        "BBSloc4V": "Radiant Garden",
+        "BBSloc5V": "Disney Town",
+        "BBSloc6V": "Olympus Coliseum",
+        "BBSloc7V": "Neverland",
+        "BBSloc8V": "Mysterious Tower",
+        "BBSloc9V": "Keyblade Graveyard",
+        "BBSworldV": "Dwarf Woodlands, Castle of Dreams, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Neverland, Mysterious Tower, Keyblade Graveyard",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Enchanted Dominion",
+        "BBSloc4A": "Radiant Garden",
+        "BBSloc5A": "Disney Town",
+        "BBSloc6A": "Olympus Coliseum",
+        "BBSloc7A": "Deep Space",
+        "BBSloc8A": "Neverland",
+        "BBSloc9A": "Mysterious Tower",
+        "BBSloc10A": "Keyblade Graveyard",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Neverland, Mysterious Tower, Keyblade Graveyard"
+      }
+    },
+    "Scrapper": {
+      "source_url": "https://www.khwiki.com/Scrapper",
+      "revision": 914253,
+      "revision_timestamp": "2026-05-12T18:37:08Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Mysterious Tower",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Castle of Dreams",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland",
+          "Mysterious Tower"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Mysterious Tower"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Castle of Dreams",
+        "BBSloc3T": "Dwarf Woodlands",
+        "BBSloc4T": "Mysterious Tower",
+        "BBSloc5T": "Radiant Garden",
+        "BBSloc6T": "Disney Town",
+        "BBSloc7T": "Olympus Coliseum",
+        "BBSloc8T": "Neverland",
+        "BBSworldT": "Enchanted Dominion, Castle of Dreams, Dwarf Woodlands, Mysterious Tower, Radiant Garden, Disney Town, Olympus Coliseum, Neverland",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Castle of Dreams",
+        "BBSloc3V": "Enchanted Dominion",
+        "BBSloc4V": "Radiant Garden",
+        "BBSloc5V": "Disney Town",
+        "BBSloc6V": "Olympus Coliseum",
+        "BBSloc7V": "Neverland",
+        "BBSloc8V": "Mysterious Tower",
+        "BBSworldV": "Dwarf Woodlands, Castle of Dreams, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Neverland, Mysterious Tower",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Enchanted Dominion",
+        "BBSloc4A": "Radiant Garden",
+        "BBSloc5A": "Disney Town",
+        "BBSloc6A": "Olympus Coliseum",
+        "BBSloc7A": "Deep Space",
+        "BBSloc8A": "Neverland",
+        "BBSloc9A": "Mysterious Tower",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Neverland, Mysterious Tower"
+      }
+    },
+    "Bruiser": {
+      "source_url": "https://www.khwiki.com/Bruiser",
+      "revision": 914239,
+      "revision_timestamp": "2026-05-12T18:34:03Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Mysterious Tower",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Castle of Dreams",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Castle of Dreams",
+        "BBSloc3T": "Dwarf Woodlands",
+        "BBSloc4T": "Mysterious Tower",
+        "BBSloc5T": "Radiant Garden",
+        "BBSloc6T": "Disney Town",
+        "BBSloc7T": "Olympus Coliseum",
+        "BBSloc9T": "Keyblade Graveyard",
+        "BBSworldT": "Enchanted Dominion, Castle of Dreams, Dwarf Woodlands, Mysterious Tower, Radiant Garden, Disney Town, Olympus Coliseum, Keyblade Graveyard",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Castle of Dreams",
+        "BBSloc3V": "Enchanted Dominion",
+        "BBSloc4V": "Radiant Garden",
+        "BBSloc5V": "Disney Town",
+        "BBSloc6V": "Olympus Coliseum",
+        "BBSloc8V": "Mysterious Tower",
+        "BBSloc9V": "Keyblade Graveyard",
+        "BBSworldV": "Dwarf Woodlands, Castle of Dreams, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum,  Mysterious Tower, Keyblade Graveyard",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Enchanted Dominion",
+        "BBSloc4A": "Radiant Garden",
+        "BBSloc5A": "Disney Town",
+        "BBSloc6A": "Olympus Coliseum",
+        "BBSloc9A": "Mysterious Tower",
+        "BBSloc10A": "Keyblade Graveyard",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum,  Mysterious Tower, Keyblade Graveyard"
+      }
+    },
+    "Archraven": {
+      "source_url": "https://www.khwiki.com/Archraven",
+      "revision": 914235,
+      "revision_timestamp": "2026-05-12T18:33:26Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Neverland"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden"
+        ],
+        "Aqua": [
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Radiant Garden",
+        "BBSloc3T": "Neverland",
+        "BBSworldT": "Enchanted Dominion, Radiant Garden, Neverland",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Enchanted Dominion",
+        "BBSloc3V": "Radiant Garden",
+        "BBSworldV": "Dwarf Woodlands, Enchanted Dominion, Radiant Garden",
+        "BBSloc1A": "Dwarf Woodlands",
+        "BBSloc2A": "Enchanted Dominion",
+        "BBSloc3A": "Radiant Garden",
+        "BBSworldA": "Dwarf Woodlands, Enchanted Dominion, Radiant Garden"
+      }
+    },
+    "Buckle Bruiser": {
+      "source_url": "https://www.khwiki.com/Buckle_Bruiser",
+      "revision": 914240,
+      "revision_timestamp": "2026-05-12T18:34:09Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Olympus Coliseum",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Olympus Coliseum",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Olympus Coliseum",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Olympus Coliseum",
+        "BBSloc2T": "Keyblade Graveyard",
+        "BBSworldT": "Olympus Coliseum, Keyblade Graveyard",
+        "BBSloc1V": "Olympus Coliseum",
+        "BBSloc2V": "Keyblade Graveyard",
+        "BBSworldV": "Olympus Coliseum, Keyblade Graveyard",
+        "BBSloc1A": "Olympus Coliseum",
+        "BBSloc2A": "Keyblade Graveyard",
+        "BBSworldA": "Olympus Coliseum, Keyblade Graveyard"
+      }
+    },
+    "Red Hot Chili": {
+      "source_url": "https://www.khwiki.com/Red_Hot_Chili",
+      "revision": 914252,
+      "revision_timestamp": "2026-05-12T18:37:00Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Castle of Dreams",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Castle of Dreams",
+        "BBSloc3T": "Dwarf Woodlands",
+        "BBSloc4T": "Radiant Garden",
+        "BBSloc5T": "Disney Town",
+        "BBSloc6T": "Olympus Coliseum",
+        "BBSloc7T": "Neverland",
+        "BBSloc8T": "Keyblade Graveyard",
+        "BBSworldT": "Enchanted Dominion, Castle of Dreams, Dwarf Woodlands, Radiant Garden, Disney Town, Olympus Coliseum, Neverland, Keyblade Graveyard",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Castle of Dreams",
+        "BBSloc3V": "Enchanted Dominion",
+        "BBSloc4V": "Radiant Garden",
+        "BBSloc5V": "Disney Town",
+        "BBSloc6V": "Olympus Coliseum",
+        "BBSloc7V": "Neverland",
+        "BBSloc8V": "Keyblade Graveyard",
+        "BBSworldV": "Dwarf Woodlands, Castle of Dreams, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Neverland, Keyblade Graveyard",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Enchanted Dominion",
+        "BBSloc4A": "Radiant Garden",
+        "BBSloc5A": "Disney Town",
+        "BBSloc6A": "Olympus Coliseum",
+        "BBSloc7A": "Deep Space",
+        "BBSloc8A": "Neverland",
+        "BBSloc9A": "Keyblade Graveyard",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard"
+      }
+    },
+    "Monotrucker": {
+      "source_url": "https://www.khwiki.com/Monotrucker",
+      "revision": 914250,
+      "revision_timestamp": "2026-05-12T18:36:46Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Olympus Coliseum"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Olympus Coliseum",
+        "BBSworldT": "Olympus Coliseum",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSworldV": "Dwarf Woodlands"
+      }
+    },
+    "Thornbite": {
+      "source_url": "https://www.khwiki.com/Thornbite",
+      "revision": 914259,
+      "revision_timestamp": "2026-05-12T18:38:05Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Castle of Dreams"
+        ],
+        "Ventus": [
+          "Enchanted Dominion"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Enchanted Dominion"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Castle of Dreams",
+        "BBSworldT": "Enchanted Dominion, Castle of Dreams",
+        "BBSloc1V": "Enchanted Dominion",
+        "BBSworldV": "Enchanted Dominion",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Enchanted Dominion",
+        "BBSworldA": "Castle of Dreams, Enchanted Dominion"
+      }
+    },
+    "Shoegazer": {
+      "source_url": "https://www.khwiki.com/Shoegazer",
+      "revision": 918631,
+      "revision_timestamp": "2026-08-13T00:09:58Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Castle of Dreams",
+          "Olympus Coliseum",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Castle of Dreams",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Castle of Dreams",
+        "BBSloc2T": "Olympus Coliseum",
+        "BBSloc3T": "Keyblade Graveyard",
+        "BBSworldT": "Castle of Dreams, Olympus Coliseum, Keyblade Graveyard",
+        "BBSloc1V": "Castle of Dreams",
+        "BBSloc2V": "Keyblade Graveyard",
+        "BBSworldV": "Castle of Dreams, Keyblade Graveyard",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Keyblade Graveyard",
+        "BBSworldA": "Castle of Dreams, Keyblade Graveyard"
+      }
+    },
+    "Hareraiser": {
+      "source_url": "https://www.khwiki.com/Hareraiser",
+      "revision": 914244,
+      "revision_timestamp": "2026-05-12T18:35:12Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Mysterious Tower",
+          "Radiant Garden",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Olympus Coliseum",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Castle of Dreams",
+        "BBSloc2T": "Dwarf Woodlands",
+        "BBSloc3T": "Mysterious Tower",
+        "BBSloc4T": "Radiant Garden",
+        "BBSloc5T": "Neverland",
+        "BBSloc6T": "Keyblade Graveyard",
+        "BBSworldT": "Castle of Dreams, Dwarf Woodlands, Mysterious Tower, Radiant Garden, Neverland, Keyblade Graveyard",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Mysterious Tower",
+        "BBSloc3V": "Keyblade Graveyard",
+        "BBSworldV": "Dwarf Woodlands, Mysterious Tower, Keyblade Graveyard",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Olympus Coliseum",
+        "BBSloc4A": "Mysterious Tower",
+        "BBSloc5A": "Keyblade Graveyard",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Olympus Coliseum, Mysterious Tower, Keyblade Graveyard"
+      }
+    },
+    "Spiderchest": {
+      "source_url": "https://www.khwiki.com/Spiderchest",
+      "revision": 922624,
+      "revision_timestamp": "2026-09-27T22:09:34Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland"
+        ],
+        "Ventus": [
+          "Disney Town",
+          "Neverland"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Neverland"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Castle of Dreams",
+        "BBSloc2T": "Dwarf Woodlands",
+        "BBSloc3T": "Disney Town",
+        "BBSloc4T": "Olympus Coliseum",
+        "BBSloc5T": "Neverland",
+        "BBSworldT": "Castle of Dreams, Dwarf Woodlands, Disney Town, Olympus Coliseum, Neverland",
+        "BBSloc1V": "Disney Town",
+        "BBSloc2V": "Neverland",
+        "BBSworldV": "Disney Town, Neverland",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Disney Town",
+        "BBSloc4A": "Olympus Coliseum",
+        "BBSloc5A": "Neverland",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Disney Town, Olympus Coliseum, Neverland"
+      }
+    },
+    "Jellyshade": {
+      "source_url": "https://www.khwiki.com/Jellyshade",
+      "revision": 914246,
+      "revision_timestamp": "2026-05-12T18:35:56Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland"
+        ],
+        "Ventus": [
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland"
+        ],
+        "Aqua": [
+          "Olympus Coliseum",
+          "Deep Space"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Olympus Coliseum",
+        "BBSloc2T": "Deep Space",
+        "BBSloc3T": "Deep Space",
+        "BBSloc4T": "Neverland",
+        "BBSloc5T": "Neverland",
+        "BBSworldT": "Olympus Coliseum, Deep Space, Neverland",
+        "BBSloc1V": "Olympus Coliseum",
+        "BBSloc2V": "Olympus Coliseum",
+        "BBSloc3V": "Deep Space",
+        "BBSloc4V": "Neverland",
+        "BBSworldV": "Olympus Coliseum, Deep Space, Neverland",
+        "BBSloc1A": "Olympus Coliseum",
+        "BBSloc2A": "Deep Space",
+        "BBSworldA": "Olympus Coliseum, Deep Space"
+      }
+    },
+    "Prize Pod": {
+      "source_url": "https://www.khwiki.com/Prize_Pod",
+      "revision": 914251,
+      "revision_timestamp": "2026-05-12T18:36:53Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Enchanted Dominion",
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland"
+        ],
+        "Ventus": [
+          "Dwarf Woodlands",
+          "Castle of Dreams",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland"
+        ],
+        "Aqua": [
+          "Castle of Dreams",
+          "Dwarf Woodlands",
+          "Enchanted Dominion",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Enchanted Dominion",
+        "BBSloc2T": "Castle of Dreams",
+        "BBSloc3T": "Dwarf Woodlands",
+        "BBSloc4T": "Radiant Garden",
+        "BBSloc5T": "Disney Town",
+        "BBSloc6T": "Olympus Coliseum",
+        "BBSloc7T": "Deep Space",
+        "BBSloc8T": "Neverland",
+        "BBSworldT": "Enchanted Dominion, Castle of Dreams, Dwarf Woodlands, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Neverland",
+        "BBSloc1V": "Dwarf Woodlands",
+        "BBSloc2V": "Castle of Dreams",
+        "BBSloc3V": "Enchanted Dominion",
+        "BBSloc4V": "Radiant Garden",
+        "BBSloc5V": "Disney Town",
+        "BBSloc6V": "Olympus Coliseum",
+        "BBSloc7V": "Deep Space",
+        "BBSloc8V": "Neverland",
+        "BBSworldV": "Dwarf Woodlands, Castle of Dreams, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Neverland",
+        "BBSloc1A": "Castle of Dreams",
+        "BBSloc2A": "Dwarf Woodlands",
+        "BBSloc3A": "Enchanted Dominion",
+        "BBSloc4A": "Radiant Garden",
+        "BBSloc5A": "Disney Town",
+        "BBSloc6A": "Olympus Coliseum",
+        "BBSloc7A": "Deep Space",
+        "BBSloc8A": "Neverland",
+        "BBSworldA": "Castle of Dreams, Dwarf Woodlands, Enchanted Dominion, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Neverland"
+      }
+    },
+    "Blobmob": {
+      "source_url": "https://www.khwiki.com/Blobmob",
+      "revision": 917821,
+      "revision_timestamp": "2026-07-31T04:48:45Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Deep Space",
+          "Neverland"
+        ],
+        "Ventus": [
+          "Deep Space"
+        ],
+        "Aqua": [
+          "Deep Space"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Deep Space",
+        "BBSloc2T": "Neverland",
+        "BBSworldT": "Deep Space, Neverland",
+        "BBSloc1V": "Deep Space",
+        "BBSworldV": "Deep Space",
+        "BBSloc1A": "Deep Space",
+        "BBSworldA": "Deep Space"
+      }
+    },
+    "Axe Flapper": {
+      "source_url": "https://www.khwiki.com/Axe_Flapper",
+      "revision": 914236,
+      "revision_timestamp": "2026-05-12T18:33:35Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Olympus Coliseum"
+        ],
+        "Ventus": [
+          "Olympus Coliseum"
+        ],
+        "Aqua": [
+          "Olympus Coliseum"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Olympus Coliseum",
+        "BBSworldT": "Olympus Coliseum",
+        "BBSloc1V": "Olympus Coliseum",
+        "BBSworldV": "Olympus Coliseum",
+        "BBSloc1A": "Olympus Coliseum",
+        "BBSworldA": "Olympus Coliseum"
+      }
+    },
+    "Chrono Twister": {
+      "source_url": "https://www.khwiki.com/Chrono_Twister",
+      "revision": 914241,
+      "revision_timestamp": "2026-05-12T18:34:29Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Radiant Garden",
+        "BBSloc2T": "Disney Town",
+        "BBSloc3T": "Olympus Coliseum",
+        "BBSloc4T": "Deep Space",
+        "BBSloc5T": "Keyblade Graveyard",
+        "BBSworldT": "Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Keyblade Graveyard",
+        "BBSloc1V": "Radiant Garden",
+        "BBSloc2V": "Disney Town",
+        "BBSloc3V": "Olympus Coliseum",
+        "BBSloc4V": "Deep Space",
+        "BBSloc5V": "Keyblade Graveyard",
+        "BBSworldV": "Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Keyblade Graveyard",
+        "BBSloc1A": "Radiant Garden",
+        "BBSloc2A": "Disney Town",
+        "BBSloc3A": "Olympus Coliseum",
+        "BBSloc4A": "Deep Space",
+        "BBSloc5A": "Keyblade Graveyard",
+        "BBSworldA": "Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Keyblade Graveyard"
+      }
+    },
+    "Mandrake": {
+      "source_url": "https://www.khwiki.com/Mandrake",
+      "revision": 918633,
+      "revision_timestamp": "2026-08-13T00:15:26Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Radiant Garden",
+          "Olympus Coliseum",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Radiant Garden",
+          "Olympus Coliseum",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Radiant Garden",
+          "Olympus Coliseum",
+          "Neverland",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Radiant Garden",
+        "BBSloc2T": "Olympus Coliseum",
+        "BBSloc3T": "Never Land",
+        "BBSloc4T": "Keyblade Graveyard",
+        "BBSworldT": "Radiant Garden, Olympus Coliseum, Never Land, Keyblade Graveyard",
+        "BBSloc1V": "Radiant Garden",
+        "BBSloc2V": "Olympus Coliseum",
+        "BBSloc3V": "Never Land",
+        "BBSloc4V": "Keyblade Graveyard",
+        "BBSworldV": "Radiant Garden, Olympus Coliseum, Never Land, Keyblade Graveyard",
+        "BBSloc1A": "Radiant Garden",
+        "BBSloc2A": "Olympus Coliseum",
+        "BBSloc3A": "Never Land",
+        "BBSloc4A": "Keyblade Graveyard",
+        "BBSworldA": "Radiant Garden, Olympus Coliseum, Never Land, Keyblade Graveyard"
+      }
+    },
+    "Yellow Mustard": {
+      "source_url": "https://www.khwiki.com/Yellow_Mustard",
+      "revision": 914266,
+      "revision_timestamp": "2026-05-12T18:39:30Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Olympus Coliseum",
+        "BBSloc2T": "Deep Space",
+        "BBSloc3T": "Neverland",
+        "BBSloc4T": "Keyblade Graveyard",
+        "BBSworldT": "Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard",
+        "BBSloc1V": "Olympus Coliseum",
+        "BBSloc2V": "Deep Space",
+        "BBSloc3V": "Neverland",
+        "BBSloc4V": "Keyblade Graveyard",
+        "BBSworldV": "Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard",
+        "BBSloc1A": "Olympus Coliseum",
+        "BBSloc2A": "Deep Space",
+        "BBSloc3A": "Neverland",
+        "BBSloc4A": "Keyblade Graveyard",
+        "BBSworldA": "Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard"
+      }
+    },
+    "Blue Sea Salt": {
+      "source_url": "https://www.khwiki.com/Blue_Sea_Salt",
+      "revision": 914238,
+      "revision_timestamp": "2026-05-12T18:33:53Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Mysterious Tower",
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Radiant Garden",
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Mysterious Tower",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Mysterious Tower",
+        "BBSloc2T": "Radiant Garden",
+        "BBSloc3T": "Disney Town",
+        "BBSloc4T": "Olympus Coliseum",
+        "BBSloc5T": "Deep Space",
+        "BBSloc6T": "Keyblade Graveyard",
+        "BBSworldT": "Mysterious Tower, Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Keyblade Graveyard",
+        "BBSloc1V": "Radiant Garden",
+        "BBSloc2V": "Disney Town",
+        "BBSloc3V": "Olympus Coliseum",
+        "BBSloc4V": "Deep Space",
+        "BBSloc5V": "Mysterious Tower",
+        "BBSloc6V": "Keyblade Graveyard",
+        "BBSworldV": "Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Mysterious Tower, Keyblade Graveyard",
+        "BBSloc1A": "Radiant Garden",
+        "BBSloc2A": "Disney Town",
+        "BBSloc3A": "Olympus Coliseum",
+        "BBSloc4A": "Deep Space",
+        "BBSloc5A": "Mysterious Tower",
+        "BBSloc6A": "Keyblade Graveyard",
+        "BBSworldA": "Radiant Garden, Disney Town, Olympus Coliseum, Deep Space, Mysterious Tower, Keyblade Graveyard"
+      }
+    },
+    "Wild Bruiser": {
+      "source_url": "https://www.khwiki.com/Wild_Bruiser",
+      "revision": 914265,
+      "revision_timestamp": "2026-05-12T18:39:22Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Neverland"
+        ],
+        "Ventus": [
+          "Neverland"
+        ],
+        "Aqua": [
+          "Neverland"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Neverland",
+        "BBSworldT": "Neverland",
+        "BBSloc1V": "Neverland",
+        "BBSworldV": "Neverland",
+        "BBSloc1A": "Neverland",
+        "BBSworldA": "Neverland"
+      }
+    },
+    "Triple Wrecker": {
+      "source_url": "https://www.khwiki.com/Triple_Wrecker",
+      "revision": 914261,
+      "revision_timestamp": "2026-05-12T18:38:34Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Neverland",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Neverland",
+        "BBSloc2T": "Keyblade Graveyard",
+        "BBSworldT": "Neverland, Keyblade Graveyard",
+        "BBSloc1V": "Neverland",
+        "BBSloc2V": "Keyblade Graveyard",
+        "BBSworldV": "Neverland, Keyblade Graveyard",
+        "BBSloc1A": "Neverland",
+        "BBSloc2A": "Keyblade Graveyard",
+        "BBSworldA": "Neverland, Keyblade Graveyard"
+      }
+    },
+    "Sonic Blaster": {
+      "source_url": "https://www.khwiki.com/Sonic_Blaster",
+      "revision": 922825,
+      "revision_timestamp": "2026-10-02T18:29:47Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Deep Space",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Deep Space",
+        "BBSloc2T": "Keyblade Graveyard",
+        "BBSworldT": "Deep Space, Keyblade Graveyard",
+        "BBSloc1V": "Deep Space",
+        "BBSloc2V": "Keyblade Graveyard",
+        "BBSworldV": "Deep Space, Keyblade Graveyard",
+        "BBSloc1A": "Deep Space",
+        "BBSloc2A": "Keyblade Graveyard",
+        "BBSworldA": "Deep Space, Keyblade Graveyard"
+      }
+    },
+    "Vile Phial": {
+      "source_url": "https://www.khwiki.com/Vile_Phial",
+      "revision": 918632,
+      "revision_timestamp": "2026-08-13T00:11:20Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Disney Town",
+          "Olympus Coliseum",
+          "Deep Space",
+          "Neverland",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Disney Town",
+        "BBSloc2T": "Olympus Coliseum",
+        "BBSloc3T": "Deep Space",
+        "BBSloc4T": "Neverland",
+        "BBSloc5T": "Keyblade Graveyard",
+        "BBSworldT": "Disney Town, Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard",
+        "BBSloc1V": "Disney Town",
+        "BBSloc2V": "Olympus Coliseum",
+        "BBSloc3V": "Deep Space",
+        "BBSloc4V": "Neverland",
+        "BBSloc5V": "Keyblade Graveyard",
+        "BBSworldV": "Disney Town, Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard",
+        "BBSloc1A": "Disney Town",
+        "BBSloc2A": "Olympus Coliseum",
+        "BBSloc3A": "Deep Space",
+        "BBSloc4A": "Neverland",
+        "BBSloc5A": "Keyblade Graveyard",
+        "BBSworldA": "Disney Town, Olympus Coliseum, Deep Space, Neverland, Keyblade Graveyard"
+      }
+    },
+    "Tank Toppler": {
+      "source_url": "https://www.khwiki.com/Tank_Toppler",
+      "revision": 918630,
+      "revision_timestamp": "2026-08-13T00:08:36Z",
+      "worlds_by_character": {
+        "Terra": [
+          "Radiant Garden",
+          "Disney Town",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Ventus": [
+          "Radiant Garden",
+          "Disney Town",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ],
+        "Aqua": [
+          "Radiant Garden",
+          "Disney Town",
+          "Deep Space",
+          "Keyblade Graveyard"
+        ]
+      },
+      "source_fields": {
+        "BBSloc1T": "Radiant Garden",
+        "BBSloc2T": "Disney Town",
+        "BBSloc3T": "Deep Space",
+        "BBSloc4T": "Keyblade Graveyard",
+        "BBSworldT": "Radiant Garden, Disney Town, Deep Space, Keyblade Graveyard",
+        "BBSloc1V": "Radiant Garden",
+        "BBSloc2V": "Disney Town",
+        "BBSloc3V": "Deep Space",
+        "BBSloc4V": "Keyblade Graveyard",
+        "BBSworldV": "Radiant Garden, Disney Town,  Deep Space, Keyblade Graveyard",
+        "BBSloc1A": "Radiant Garden",
+        "BBSloc2A": "Disney Town",
+        "BBSloc3A": "Deep Space",
+        "BBSloc4A": "Keyblade Graveyard",
+        "BBSworldA": "Radiant Garden, Disney Town, Deep Space, Keyblade Graveyard"
+      }
+    }
+  },
+  "shop": {
+    "source_url": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep",
+    "revision": 910181,
+    "source_table": "|-style=\"{{style|bbs|a}}\"\n!Shop Level||colspan=\"2\"|Condition\n|-\n|1||colspan=\"2\"|Game start\n|-\n|2||Complete one of the following Worlds||rowspan=\"3\"|[[Enchanted Dominion]]<br>[[Dwarf Woodlands]]<br>[[Castle of Dreams]]\n|-\n|3||Complete two of the following Worlds\n|-\n|4||Complete all of the following Worlds\n|-\n|5||colspan=\"2\"|Complete [[Radiant Garden]]\n|-\n|6||Complete one of the following Worlds||rowspan=\"2\"|[[Olympus Coliseum]]<br>[[Deep Space]]\n|-\n|7||Complete both of the following Worlds\n|-\n|8||colspan=\"2\"|Complete [[Neverland]]",
+    "milestones": [
+      {
+        "level": 1,
+        "action": "start",
+        "worlds": []
+      },
+      {
+        "level": 2,
+        "action": "complete_one",
+        "worlds": [
+          "Enchanted Dominion",
+          "Dwarf Woodlands",
+          "Castle of Dreams"
+        ]
+      },
+      {
+        "level": 3,
+        "action": "complete_two",
+        "worlds": [
+          "Enchanted Dominion",
+          "Dwarf Woodlands",
+          "Castle of Dreams"
+        ]
+      },
+      {
+        "level": 4,
+        "action": "complete_all",
+        "worlds": [
+          "Enchanted Dominion",
+          "Dwarf Woodlands",
+          "Castle of Dreams"
+        ]
+      },
+      {
+        "level": 5,
+        "action": "complete_all",
+        "worlds": [
+          "Radiant Garden"
+        ]
+      },
+      {
+        "level": 6,
+        "action": "complete_one",
+        "worlds": [
+          "Olympus Coliseum",
+          "Deep Space"
+        ]
+      },
+      {
+        "level": 7,
+        "action": "complete_all",
+        "worlds": [
+          "Olympus Coliseum",
+          "Deep Space"
+        ]
+      },
+      {
+        "level": 8,
+        "action": "complete_all",
+        "worlds": [
+          "Neverland"
+        ]
+      }
+    ]
+  }
+}

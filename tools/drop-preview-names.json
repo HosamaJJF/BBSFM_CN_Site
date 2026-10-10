@@ -1,0 +1,3912 @@
+{
+  "format": 1,
+  "patch_version": "1.1.2",
+  "workbook": "BBSFM_翻译协作清单_DSv4F_CTD_L2D_20261006.xlsx",
+  "workbook_sha256": "a24972c229660501b12d5f582f94efc968819ebb8970f4f77d84a7fba874f97b",
+  "source": "Current ordinary baseline manifest + project workbook exporter; exact Japanese lookup with Unicode width/Roman numeral equivalence, CTD then L2D.",
+  "names": [
+    {
+      "kind": "item",
+      "ja": "うるおいの結晶",
+      "en": "Soothing Crystal",
+      "zh": "润泽结晶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28003208#1",
+        "message/jp/system/CTit000.ctd#0x28003208#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "うるおいの結晶"
+      ],
+      "lookup_japanese": "うるおいの結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "きらめく結晶",
+      "en": "Shimmering Crystal",
+      "zh": "闪耀结晶",
+      "keys": [
+        "message/jp/report/CTrp400.ctd#0x38C81007#1",
+        "message/jp/system/BuckUP_CTit000.ctd#0x28003200#1",
+        "message/jp/system/CTit000.ctd#0x28003200#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp400.ctd",
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "きらめく結晶"
+      ],
+      "lookup_japanese": "きらめく結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "とんがりペッパー",
+      "en": "Prickle Pepper",
+      "zh": "尖角辣椒",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004629#1",
+        "message/jp/system/CTit000.ctd#0x28004610#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "とんがりペッパー"
+      ],
+      "lookup_japanese": "とんがりペッパー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ふわふわクリーム",
+      "en": "Cream Fluff",
+      "zh": "蓬松奶油",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004614#1",
+        "message/jp/system/CTit000.ctd#0x2800461A#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ふわふわクリーム"
+      ],
+      "lookup_japanese": "ふわふわクリーム",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "みなぎる結晶",
+      "en": "Wellspring Crystal",
+      "zh": "充盈结晶",
+      "keys": [
+        "message/jp/report/CTrp400.ctd#0x38C81001#1",
+        "message/jp/system/BuckUP_CTit000.ctd#0x28003206#1",
+        "message/jp/system/CTit000.ctd#0x28003206#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp400.ctd",
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "みなぎる結晶"
+      ],
+      "lookup_japanese": "みなぎる結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "めぐりくる結晶",
+      "en": "Abounding Crystal",
+      "zh": "轮回结晶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800320C#1",
+        "message/jp/system/CTit000.ctd#0x2800320C#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "めぐりくる結晶"
+      ],
+      "lookup_japanese": "めぐりくる結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "わた雲のキャンディ",
+      "en": "Cotton Cloudcandy",
+      "zh": "棉云糖果",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004621#1",
+        "message/jp/system/CTit000.ctd#0x28004628#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "わた雲のキャンディ"
+      ],
+      "lookup_japanese": "わた雲のキャンディ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "イナズマキャンディ",
+      "en": "Thundercracker",
+      "zh": "闪电糖果",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004620#1",
+        "message/jp/system/CTit000.ctd#0x28004627#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "イナズマキャンディ"
+      ],
+      "lookup_japanese": "イナズマキャンディ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ウェディングケーキ",
+      "en": "Wedding Cake",
+      "zh": "婚礼蛋糕",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004624#1",
+        "message/jp/system/CTit000.ctd#0x2800462B#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ウェディングケーキ"
+      ],
+      "lookup_japanese": "ウェディングケーキ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "エアロ",
+      "en": "Aero",
+      "zh": "劲风",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00A2#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "エアロ"
+      ],
+      "lookup_japanese": "エアロ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "エアロガ",
+      "en": "Aeroga",
+      "zh": "大劲风",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00A4#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "エアロガ"
+      ],
+      "lookup_japanese": "エアロガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "エアロラ",
+      "en": "Aerora",
+      "zh": "中劲风",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00A3#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "エアロラ"
+      ],
+      "lookup_japanese": "エアロラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "エリアルブレイク",
+      "en": "Quick Blitz",
+      "zh": "空中破击",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA005B#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "エリアルブレイク"
+      ],
+      "lookup_japanese": "エリアルブレイク",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "エリクサー",
+      "en": "Elixir",
+      "zh": "圣灵药",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00C2#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "エリクサー"
+      ],
+      "lookup_japanese": "エリクサー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "エーテル",
+      "en": "Ether",
+      "zh": "以太",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00BF#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "エーテル"
+      ],
+      "lookup_japanese": "エーテル",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "オープンセサミ",
+      "en": "Open Sesame",
+      "zh": "芝麻开门",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004607#1",
+        "message/jp/system/CTit000.ctd#0x28004608#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "オープンセサミ"
+      ],
+      "lookup_japanese": "オープンセサミ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "オールキュア",
+      "en": "Panacea",
+      "zh": "万能药",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00C1#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "オールキュア"
+      ],
+      "lookup_japanese": "オールキュア",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "クリスタルシュガー",
+      "en": "Crystal Sugar",
+      "zh": "水晶糖",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004627#1",
+        "message/jp/system/CTit000.ctd#0x2800460E#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "クリスタルシュガー"
+      ],
+      "lookup_japanese": "クリスタルシュガー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "クリスタルソーダ",
+      "en": "Crystal Soda",
+      "zh": "水晶苏打",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004619#1",
+        "message/jp/system/CTit000.ctd#0x2800461F#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "クリスタルソーダ"
+      ],
+      "lookup_japanese": "クリスタルソーダ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ケアル",
+      "en": "Cure",
+      "zh": "恢复",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0092#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ケアル"
+      ],
+      "lookup_japanese": "ケアル",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ケアルガ",
+      "en": "Curaga",
+      "zh": "大恢复",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0094#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ケアルガ"
+      ],
+      "lookup_japanese": "ケアルガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ケアルラ",
+      "en": "Cura",
+      "zh": "中恢复",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0093#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ケアルラ"
+      ],
+      "lookup_japanese": "ケアルラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "コンフュ",
+      "en": "Confuse",
+      "zh": "混乱",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000404#1",
+        "message/jp/system/CT00500.ctd#0x00FA00B4#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "コンフュ"
+      ],
+      "lookup_japanese": "コンフュ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "コンフュストライク",
+      "en": "Confusion Strike",
+      "zh": "混乱强击",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0077#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "コンフュストライク"
+      ],
+      "lookup_japanese": "コンフュストライク",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "サンダガ",
+      "en": "Thundaga",
+      "zh": "大雷电",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0090#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "サンダガ"
+      ],
+      "lookup_japanese": "サンダガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "サンダラ",
+      "en": "Thundara",
+      "zh": "中雷电",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA008F#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "サンダラ"
+      ],
+      "lookup_japanese": "サンダラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ジェットソーダ",
+      "en": "Rocket Soda",
+      "zh": "喷气苏打",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800461A#1",
+        "message/jp/system/CTit000.ctd#0x28004620#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ジェットソーダ"
+      ],
+      "lookup_japanese": "ジェットソーダ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ジュエリービーンズ",
+      "en": "Bijou Bean",
+      "zh": "珠宝豆",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004608#1",
+        "message/jp/system/CTit000.ctd#0x28004609#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ジュエリービーンズ"
+      ],
+      "lookup_japanese": "ジュエリービーンズ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "スタンブレード",
+      "en": "Stun Edge",
+      "zh": "眩晕之刃",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0074#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "スタンブレード"
+      ],
+      "lookup_japanese": "スタンブレード",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ストップ",
+      "en": "Stop",
+      "zh": "停止",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00B8#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ストップ"
+      ],
+      "lookup_japanese": "ストップ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ストプラ",
+      "en": "Stopra",
+      "zh": "中停止",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00B9#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ストプラ"
+      ],
+      "lookup_japanese": "ストプラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ストライクレイド",
+      "en": "Strike Raid",
+      "zh": "强击飞掷",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0065#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ストライクレイド"
+      ],
+      "lookup_japanese": "ストライクレイド",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "スナイプバーニング",
+      "en": "Ignite",
+      "zh": "点燃",
+      "keys": [
+        "message/jp/report/CTrp400.ctd#0x38C81006#1",
+        "message/jp/system/CT00500.ctd#0x00FA00B3#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp400.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "スナイプバーニング"
+      ],
+      "lookup_japanese": "スナイプバーニング",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "スライドダッシュ",
+      "en": "Sliding Dash",
+      "zh": "滑行冲刺",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA005F#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "スライドダッシュ"
+      ],
+      "lookup_japanese": "スライドダッシュ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "スリプル",
+      "en": "Sleep",
+      "zh": "催眠",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00BB#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "スリプル"
+      ],
+      "lookup_japanese": "スリプル",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "スロウ",
+      "en": "Slow",
+      "zh": "迟缓",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00B7#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "スロウ"
+      ],
+      "lookup_japanese": "スロウ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ゼログラビガ",
+      "en": "Zero Graviga",
+      "zh": "大零重力",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA009B#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ゼログラビガ"
+      ],
+      "lookup_japanese": "ゼログラビガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ゼログラビデ",
+      "en": "Zero Gravity",
+      "zh": "零重力",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0099#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ゼログラビデ"
+      ],
+      "lookup_japanese": "ゼログラビデ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ゼログラビラ",
+      "en": "Zero Gravira",
+      "zh": "中零重力",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA009A#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ゼログラビラ"
+      ],
+      "lookup_japanese": "ゼログラビラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ソイミルク",
+      "en": "Soy Milk",
+      "zh": "豆奶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004616#1",
+        "message/jp/system/CTit000.ctd#0x2800461C#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ソイミルク"
+      ],
+      "lookup_japanese": "ソイミルク",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ダンシングレモン",
+      "en": "Dancin' Lemon",
+      "zh": "跳舞柠檬",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004600#1",
+        "message/jp/system/CTit000.ctd#0x28004600#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ダンシングレモン"
+      ],
+      "lookup_japanese": "ダンシングレモン",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "デトネシールド",
+      "en": "Mine Shield",
+      "zh": "爆破护盾",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0096#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "デトネシールド"
+      ],
+      "lookup_japanese": "デトネシールド",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "デトネスクウェア",
+      "en": "Mine Square",
+      "zh": "爆破方阵",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0097#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "デトネスクウェア"
+      ],
+      "lookup_japanese": "デトネスクウェア",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "トゥーンカレー",
+      "en": "Toonbasco",
+      "zh": "卡通咖喱",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800462A#1",
+        "message/jp/system/CTit000.ctd#0x28004611#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "トゥーンカレー"
+      ],
+      "lookup_japanese": "トゥーンカレー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "トレジャーハニー",
+      "en": "Honeybunch",
+      "zh": "宝藏蜂蜜",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800460D#1",
+        "message/jp/system/CTit000.ctd#0x28004613#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "トレジャーハニー"
+      ],
+      "lookup_japanese": "トレジャーハニー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ハイポーション",
+      "en": "Hi-Potion",
+      "zh": "高级恢复药",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00BD#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ハイポーション"
+      ],
+      "lookup_japanese": "ハイポーション",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ハミングミント",
+      "en": "Merry Mint",
+      "zh": "哼唱薄荷",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800462D#1",
+        "message/jp/system/CTit000.ctd#0x28004612#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ハミングミント"
+      ],
+      "lookup_japanese": "ハミングミント",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バインド",
+      "en": "Bind",
+      "zh": "束缚",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00B5#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "バインド"
+      ],
+      "lookup_japanese": "バインド",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バインドストライク",
+      "en": "Binding Strike",
+      "zh": "束缚强击",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0078#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "バインドストライク"
+      ],
+      "lookup_japanese": "バインドストライク",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バルーンメロン",
+      "en": "Balloon Melon",
+      "zh": "气球甜瓜",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004601#1",
+        "message/jp/system/CTit000.ctd#0x28004601#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "バルーンメロン"
+      ],
+      "lookup_japanese": "バルーンメロン",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バルーンレター",
+      "en": "Balloon Letter",
+      "zh": "气球信件",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00C4#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "バルーンレター"
+      ],
+      "lookup_japanese": "バルーンレター",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バレッジファイア",
+      "en": "Crawling Fire",
+      "zh": "蔓延火焰",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0089#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "バレッジファイア"
+      ],
+      "lookup_japanese": "バレッジファイア",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バレンタインチョコ",
+      "en": "Chocolate Valentine",
+      "zh": "情人节巧克力",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800461D#1",
+        "message/jp/system/CTit000.ctd#0x28004624#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "バレンタインチョコ"
+      ],
+      "lookup_japanese": "バレンタインチョコ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "バースデイケーキ",
+      "en": "Birthday Cake",
+      "zh": "生日蛋糕",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004623#1",
+        "message/jp/system/CTit000.ctd#0x2800462A#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "バースデイケーキ"
+      ],
+      "lookup_japanese": "バースデイケーキ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファイア",
+      "en": "Fire",
+      "zh": "火焰",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0083#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ファイア"
+      ],
+      "lookup_japanese": "ファイア",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファイアダッシュ",
+      "en": "Fire Dash",
+      "zh": "火焰冲刺",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0060#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ファイアダッシュ"
+      ],
+      "lookup_japanese": "ファイアダッシュ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファイアブリッツ",
+      "en": "Fire Surge",
+      "zh": "火焰闪击",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA006A#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ファイアブリッツ"
+      ],
+      "lookup_japanese": "ファイアブリッツ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファイガ",
+      "en": "Firaga",
+      "zh": "大火焰",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0085#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ファイガ"
+      ],
+      "lookup_japanese": "ファイガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファイナルブレイク",
+      "en": "Blitz",
+      "zh": "最终破击",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA005C#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ファイナルブレイク"
+      ],
+      "lookup_japanese": "ファイナルブレイク",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファイラ",
+      "en": "Fira",
+      "zh": "中火焰",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0084#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ファイラ"
+      ],
+      "lookup_japanese": "ファイラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ファンタジーピーチ",
+      "en": "Peach Fantasy",
+      "zh": "梦幻桃子",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004602#1",
+        "message/jp/system/CTit000.ctd#0x28004602#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ファンタジーピーチ"
+      ],
+      "lookup_japanese": "ファンタジーピーチ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "フラワージェリー",
+      "en": "Nebula Nectar",
+      "zh": "花朵果冻",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004622#1",
+        "message/jp/system/CTit000.ctd#0x28004629#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "フラワージェリー"
+      ],
+      "lookup_japanese": "フラワージェリー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "フリーズレイド",
+      "en": "Freeze Raid",
+      "zh": "冰冻飞掷",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0066#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "フリーズレイド"
+      ],
+      "lookup_japanese": "フリーズレイド",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ブラックアウト",
+      "en": "Blackout",
+      "zh": "致盲",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00B2#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ブラックアウト"
+      ],
+      "lookup_japanese": "ブラックアウト",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ブリザガ",
+      "en": "Blizzaga",
+      "zh": "大冰雪",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA008C#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ブリザガ"
+      ],
+      "lookup_japanese": "ブリザガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ブリザド",
+      "en": "Blizzard",
+      "zh": "冰雪",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA008A#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ブリザド"
+      ],
+      "lookup_japanese": "ブリザド",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ブリザラ",
+      "en": "Blizzara",
+      "zh": "中冰雪",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA008B#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ブリザラ"
+      ],
+      "lookup_japanese": "ブリザラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ポイズン",
+      "en": "Poison",
+      "zh": "剧毒",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00B6#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ポイズン"
+      ],
+      "lookup_japanese": "ポイズン",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ポイズンブレード",
+      "en": "Poison Edge",
+      "zh": "剧毒之刃",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0071#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ポイズンブレード"
+      ],
+      "lookup_japanese": "ポイズンブレード",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ポーション",
+      "en": "Potion",
+      "zh": "恢复药",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00BC#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ポーション"
+      ],
+      "lookup_japanese": "ポーション",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "マグネガ",
+      "en": "Magnega",
+      "zh": "大磁力",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA009E#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "マグネガ"
+      ],
+      "lookup_japanese": "マグネガ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "マグネクラッシュ",
+      "en": "Collision Magnet",
+      "zh": "磁力粉碎",
+      "keys": [
+        "message/jp/report/CTrp400.ctd#0x38C81003#1",
+        "message/jp/system/CT00500.ctd#0x00FA007F#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp400.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "マグネクラッシュ"
+      ],
+      "lookup_japanese": "マグネクラッシュ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "マグネスパイラル",
+      "en": "Magnet Spiral",
+      "zh": "磁力螺旋",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA007B#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "マグネスパイラル"
+      ],
+      "lookup_japanese": "マグネスパイラル",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "マグネラ",
+      "en": "Magnera",
+      "zh": "中磁力",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA009D#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "マグネラ"
+      ],
+      "lookup_japanese": "マグネラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "マーメイドソルト",
+      "en": "Mermaid Salt",
+      "zh": "人鱼之盐",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004628#1",
+        "message/jp/system/CTit000.ctd#0x2800460F#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "マーメイドソルト"
+      ],
+      "lookup_japanese": "マーメイドソルト",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "メガエーテル",
+      "en": "Mega-Ether",
+      "zh": "超高级以太",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00C0#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "メガエーテル"
+      ],
+      "lookup_japanese": "メガエーテル",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "メガポーション",
+      "en": "Mega-Potion",
+      "zh": "超高级恢复药",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00BE#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "メガポーション"
+      ],
+      "lookup_japanese": "メガポーション",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "メロディグレープ",
+      "en": "Melodious Grape",
+      "zh": "旋律葡萄",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800462C#1",
+        "message/jp/system/CTit000.ctd#0x28004607#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "メロディグレープ"
+      ],
+      "lookup_japanese": "メロディグレープ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "モーグリコーヒー",
+      "en": "Moogle Coffee",
+      "zh": "莫古力咖啡",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004618#1",
+        "message/jp/system/CTit000.ctd#0x2800461E#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "モーグリコーヒー"
+      ],
+      "lookup_japanese": "モーグリコーヒー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ラストエリクサー",
+      "en": "Megalixir",
+      "zh": "最终圣灵药",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA00C3#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ラストエリクサー"
+      ],
+      "lookup_japanese": "ラストエリクサー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ロケットラムネ",
+      "en": "Fizzy Tizzy",
+      "zh": "火箭汽水糖",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004626#1",
+        "message/jp/system/CTit000.ctd#0x28004621#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ロケットラムネ"
+      ],
+      "lookup_japanese": "ロケットラムネ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ロマンスミルク",
+      "en": "Merry Dairy",
+      "zh": "浪漫牛奶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004617#1",
+        "message/jp/system/CTit000.ctd#0x2800461D#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ロマンスミルク"
+      ],
+      "lookup_japanese": "ロマンスミルク",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ローズハニー",
+      "en": "Rose Honey",
+      "zh": "玫瑰蜂蜜",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800460E#1",
+        "message/jp/system/CTit000.ctd#0x28004614#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ローズハニー"
+      ],
+      "lookup_japanese": "ローズハニー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "ワイルドナッツ",
+      "en": "Nutty Nut",
+      "zh": "野性坚果",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004609#1",
+        "message/jp/system/CTit000.ctd#0x2800460A#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "ワイルドナッツ"
+      ],
+      "lookup_japanese": "ワイルドナッツ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "力の結晶",
+      "en": "Pulsing Crystal",
+      "zh": "力量结晶",
+      "keys": [
+        "message/jp/report/CTrp400.ctd#0x38C8100B#1",
+        "message/jp/system/BuckUP_CTit000.ctd#0x28003204#1",
+        "message/jp/system/CTit000.ctd#0x28003204#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp400.ctd",
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "力の結晶"
+      ],
+      "lookup_japanese": "力の結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "夢見るリンゴ",
+      "en": "Apple Pie",
+      "zh": "织梦苹果",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004606#1",
+        "message/jp/system/CTit000.ctd#0x28004606#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "夢見るリンゴ"
+      ],
+      "lookup_japanese": "夢見るリンゴ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "大粒アーモンド",
+      "en": "Jumbo Almond",
+      "zh": "大颗杏仁",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800460A#1",
+        "message/jp/system/CTit000.ctd#0x2800460B#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "大粒アーモンド"
+      ],
+      "lookup_japanese": "大粒アーモンド",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "星空のドロップ",
+      "en": "Starry Sky Delight",
+      "zh": "星空水果糖",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800462F#1",
+        "message/jp/system/CTit000.ctd#0x2800462E#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "星空のドロップ"
+      ],
+      "lookup_japanese": "星空のドロップ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "時の結晶",
+      "en": "Fleeting Crystal",
+      "zh": "时光结晶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28003202#1",
+        "message/jp/system/CTit000.ctd#0x28003202#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "時の結晶"
+      ],
+      "lookup_japanese": "時の結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "森のカステラ",
+      "en": "Forest Muffin",
+      "zh": "森林蜂蜜蛋糕",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004625#1",
+        "message/jp/system/CTit000.ctd#0x2800462C#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "森のカステラ"
+      ],
+      "lookup_japanese": "森のカステラ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "流れ星のシロップ",
+      "en": "Star Syrup",
+      "zh": "流星糖浆",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004610#1",
+        "message/jp/system/CTit000.ctd#0x28004616#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "流れ星のシロップ"
+      ],
+      "lookup_japanese": "流れ星のシロップ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "混沌の結晶",
+      "en": "Chaos Crystal",
+      "zh": "混沌结晶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800320E#1",
+        "message/jp/system/CTit000.ctd#0x2800320E#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "混沌の結晶"
+      ],
+      "lookup_japanese": "混沌の結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "満たされる結晶",
+      "en": "Hungry Crystal",
+      "zh": "饱满结晶",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800320A#1",
+        "message/jp/system/CTit000.ctd#0x2800320A#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "満たされる結晶"
+      ],
+      "lookup_japanese": "満たされる結晶",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "瓶詰めイチゴ",
+      "en": "Cherryberry",
+      "zh": "瓶装草莓",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004605#1",
+        "message/jp/system/CTit000.ctd#0x28004605#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "瓶詰めイチゴ"
+      ],
+      "lookup_japanese": "瓶詰めイチゴ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "秘められし原石",
+      "en": "Secret Gem",
+      "zh": "秘藏原石",
+      "keys": [
+        "message/jp/report/CTrp400.ctd#0x38C81011#1",
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800320F#1",
+        "message/jp/system/CTit000.ctd#0x2800320F#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp400.ctd",
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "秘められし原石"
+      ],
+      "lookup_japanese": "秘められし原石",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "秘密のラズベリー",
+      "en": "Gaspberry",
+      "zh": "秘密覆盆子",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800460C#1",
+        "message/jp/system/CTit000.ctd#0x2800460D#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "秘密のラズベリー"
+      ],
+      "lookup_japanese": "秘密のラズベリー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "英雄オレンジ",
+      "en": "Heroic Orange",
+      "zh": "英雄香橙",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004603#1",
+        "message/jp/system/CTit000.ctd#0x28004603#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "英雄オレンジ"
+      ],
+      "lookup_japanese": "英雄オレンジ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "虹のシロップ",
+      "en": "Rainbow Syrup",
+      "zh": "彩虹糖浆",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004611#1",
+        "message/jp/system/CTit000.ctd#0x28004617#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "虹のシロップ"
+      ],
+      "lookup_japanese": "虹のシロップ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "謎のクリーム",
+      "en": "Whipped Dream",
+      "zh": "谜之奶油",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004615#1",
+        "message/jp/system/CTit000.ctd#0x2800461B#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "謎のクリーム"
+      ],
+      "lookup_japanese": "謎のクリーム",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "謎の豆",
+      "en": "Bizarro Bean",
+      "zh": "谜之豆",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800460B#1",
+        "message/jp/system/CTit000.ctd#0x2800460C#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "謎の豆"
+      ],
+      "lookup_japanese": "謎の豆",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "贅沢マシュマロ",
+      "en": "Rich Marshmallow",
+      "zh": "奢华棉花糖",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800462E#1",
+        "message/jp/system/CTit000.ctd#0x2800462D#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "贅沢マシュマロ"
+      ],
+      "lookup_japanese": "贅沢マシュマロ",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "銀河キャラメル",
+      "en": "Galactic Caramel",
+      "zh": "银河焦糖",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800461C#1",
+        "message/jp/system/CTit000.ctd#0x28004623#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "銀河キャラメル"
+      ],
+      "lookup_japanese": "銀河キャラメル",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "青空のゼリー",
+      "en": "Sky Blue Mousse",
+      "zh": "蓝天果冻",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x28004612#1",
+        "message/jp/system/CTit000.ctd#0x28004618#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "青空のゼリー"
+      ],
+      "lookup_japanese": "青空のゼリー",
+      "extraction": null
+    },
+    {
+      "kind": "item",
+      "ja": "黄金ジャム",
+      "en": "Golden Jam",
+      "zh": "黄金果酱",
+      "keys": [
+        "message/jp/system/BuckUP_CTit000.ctd#0x2800460F#1",
+        "message/jp/system/CTit000.ctd#0x28004615#1"
+      ],
+      "resources": [
+        "message/jp/system/BuckUP_CTit000.ctd",
+        "message/jp/system/CTit000.ctd"
+      ],
+      "source_japanese": [
+        "黄金ジャム"
+      ],
+      "lookup_japanese": "黄金ジャム",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アーチレイブン",
+      "en": "Archraven",
+      "zh": "弓羽渡鸦",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008900#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "アーチレイブン"
+      ],
+      "lookup_japanese": "アーチレイブン",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アーマー・オブ・ザ・マスター",
+      "en": "Armor of Eraqus",
+      "zh": "大师之铠",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38468400#1",
+        "message/jp/report/CTrp240.ctd#0x38788400#1",
+        "message/jp/report/CTrp340.ctd#0x38AA8400#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "アーマーオブザマスター"
+      ],
+      "lookup_japanese": "アーマーオブザマスター",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アックスフラッパー",
+      "en": "Axe Flapper",
+      "zh": "斧翼魔",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009600#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "アックスフラッパー"
+      ],
+      "lookup_japanese": "アックスフラッパー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ダイエットタンク",
+      "en": "Belly Balloon",
+      "zh": "节食储罐",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A800#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ダイエットタンク"
+      ],
+      "lookup_japanese": "ダイエットタンク",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ジェリーボール",
+      "en": "Blobmob",
+      "zh": "水母冻球",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009900#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ジェリーボール"
+      ],
+      "lookup_japanese": "ジェリーボール",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ブルーシーソルト",
+      "en": "Blue Sea Salt",
+      "zh": "蓝海盐",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009100#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ブルーシーソルト"
+      ],
+      "lookup_japanese": "ブルーシーソルト",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ブルーザー",
+      "en": "Bruiser",
+      "zh": "蛮横者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008300#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ブルーザー"
+      ],
+      "lookup_japanese": "ブルーザー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "バックルブルーザー",
+      "en": "Buckle Bruiser",
+      "zh": "扣带蛮横者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009400#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "バックルブルーザー"
+      ],
+      "lookup_japanese": "バックルブルーザー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "クロノツイスター",
+      "en": "Chrono Twister",
+      "zh": "时空扭曲者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009500#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "クロノツイスター"
+      ],
+      "lookup_japanese": "クロノツイスター",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "カースドキャリッジ",
+      "en": "Cursed Coach",
+      "zh": "诅咒马车",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009C00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "カースドキャリッジ"
+      ],
+      "lookup_japanese": "カースドキャリッジ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ダークボール",
+      "en": "Darkball",
+      "zh": "黑暗球",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38788200#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd"
+      ],
+      "source_japanese": [
+        "ダークボール"
+      ],
+      "lookup_japanese": "ダークボール",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "エレメントクラスタ",
+      "en": "Element Cluster",
+      "zh": "元素集群",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800AC00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "エレメントクラスタ"
+      ],
+      "lookup_japanese": "エレメントクラスタ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "フレイムボックス",
+      "en": "Flame Box",
+      "zh": "烈焰魔盒",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A500#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "フレイムボックス"
+      ],
+      "lookup_japanese": "フレイムボックス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ランチングプラント",
+      "en": "Floating Flora",
+      "zh": "升空植株",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800AD00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ランチングプラント"
+      ],
+      "lookup_japanese": "ランチングプラント",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "フラッド",
+      "en": "Flood",
+      "zh": "洪水",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008100#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "フラッド"
+      ],
+      "lookup_japanese": "フラッド",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アクア",
+      "en": "Aqua",
+      "zh": "阿库娅",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000002#1",
+        "message/jp/battledice/CTbd000.ctd#0x30000005#1",
+        "message/jp/event/cd/CTcd200.ctd#0x06649400#1",
+        "message/jp/event/cd/CTcd300.ctd#0x06999400#1",
+        "message/jp/event/he/CThe200.ctd#0x10669C00#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88102#1",
+        "message/jp/report/CTrp140.ctd#0x38460200#1",
+        "message/jp/report/CTrp240.ctd#0x38780200#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0200#1",
+        "message/jp/report/CTrp500.ctd#0x38FA0603#1",
+        "message/jp/system/CT00000.ctd#0x00000301#1",
+        "message/jp/system/CT00500.ctd#0x00FA016D#1",
+        "message/jp/system/CT00500.ctd#0x00FA017E#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/cd/CTcd200.ctd",
+        "message/jp/event/cd/CTcd300.ctd",
+        "message/jp/event/he/CThe200.ctd",
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp500.ctd",
+        "message/jp/system/CT00000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "アクア"
+      ],
+      "lookup_japanese": "アクア",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ブライグ",
+      "en": "Braig",
+      "zh": "布莱格",
+      "keys": [
+        "message/jp/report/CTrp340.ctd#0x38AA0E00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "ブライグ"
+      ],
+      "lookup_japanese": "ブライグ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "フック",
+      "en": "Captain Hook",
+      "zh": "虎克船长",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x3000000C#1",
+        "message/jp/event/pp/CTpp300.ctd#0x16968100#1",
+        "message/jp/report/CTrp140.ctd#0x38465900#1",
+        "message/jp/report/CTrp240.ctd#0x38785900#1",
+        "message/jp/report/CTrp340.ctd#0x38AA5900#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/pp/CTpp300.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "フック船長"
+      ],
+      "lookup_japanese": "フック船長",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マスター・エラクゥス",
+      "en": "Master Eraqus",
+      "zh": "艾拉库斯大师",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38460A00#1",
+        "message/jp/report/CTrp240.ctd#0x38780A00#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0A00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "マスター・エラクゥス"
+      ],
+      "lookup_japanese": "マスター・エラクゥス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "試作品221号",
+      "en": "Experiment 221",
+      "zh": "实验品221号",
+      "keys": [
+        "message/jp/mission/CTls600.ctd#0x132D8000#1"
+      ],
+      "resources": [
+        "message/jp/mission/CTls600.ctd"
+      ],
+      "source_japanese": [
+        "試作品221号を撃退しろ！"
+      ],
+      "lookup_japanese": "試作品221号を撃退しろ！",
+      "extraction": "^击退(.+)！$"
+    },
+    {
+      "kind": "enemy",
+      "ja": "ガントゥ",
+      "en": "Gantu",
+      "zh": "钢图",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x3000000A#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd"
+      ],
+      "source_japanese": [
+        "ガントゥ"
+      ],
+      "lookup_japanese": "ガントゥ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ハデス",
+      "en": "Hades",
+      "zh": "哈迪斯",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38784900#1",
+        "message/jp/report/CTrp340.ctd#0x38AA4900#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "ハデス"
+      ],
+      "lookup_japanese": "ハデス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ルシファー",
+      "en": "Lucifer",
+      "zh": "路西法",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38461600#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd"
+      ],
+      "source_japanese": [
+        "ルシファー"
+      ],
+      "lookup_japanese": "ルシファー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マジックミラー",
+      "en": "Spirit of the Magic Mirror",
+      "zh": "魔镜",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38782300#1",
+        "message/jp/report/CTrp340.ctd#0x38AA2300#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "マジックミラー"
+      ],
+      "lookup_japanese": "マジックミラー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マレフィセント",
+      "en": "Maleficent",
+      "zh": "梅尔菲森特",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38462C00#1",
+        "message/jp/report/CTrp240.ctd#0x38782C00#1",
+        "message/jp/report/CTrp340.ctd#0x38AA2C00#1",
+        "message/jp/system/CT00500.ctd#0x00FA0168#1",
+        "message/jp/system/CT00500.ctd#0x00FA0179#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "マレフィセント"
+      ],
+      "lookup_japanese": "マレフィセント",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マレフィセントドラゴン",
+      "en": "Maleficent (Dragon)",
+      "zh": "梅尔菲森特龙",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38782D00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd"
+      ],
+      "source_japanese": [
+        "マレフィセントドラゴン"
+      ],
+      "lookup_japanese": "マレフィセントドラゴン",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マスター・ゼアノート",
+      "en": "Master Xehanort",
+      "zh": "赛亚诺特大师",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38460C00#1",
+        "message/jp/report/CTrp240.ctd#0x38780C00#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0C00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "マスター・ゼアノート"
+      ],
+      "lookup_japanese": "マスター・ゼアノート",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "モンストロ",
+      "en": "Monstro",
+      "zh": "莫斯托",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38468300#1",
+        "message/jp/report/CTrp240.ctd#0x38788300#1",
+        "message/jp/report/CTrp340.ctd#0x38AA8300#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "モンストロ"
+      ],
+      "lookup_japanese": "モンストロ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "スプリングロウディ",
+      "en": "Glidewinder",
+      "zh": "弹簧狂徒",
+      "keys": [
+        "message/jp/minigame/CTmg400.ctd#0x36C88107#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88108#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88109#1",
+        "message/jp/report/CTrp000.ctd#0x38009800#1"
+      ],
+      "resources": [
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "スプリングロウディ"
+      ],
+      "lookup_japanese": "スプリングロウディ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ジェリーグリーティー",
+      "en": "Gluttonous Goo",
+      "zh": "欢茶水母冻",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800AB00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ジェリーグリーティー"
+      ],
+      "lookup_japanese": "ジェリーグリーティー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "レイザーバニー",
+      "en": "Hareraiser",
+      "zh": "剃刀兔",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008A00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "レイザーバニー"
+      ],
+      "lookup_japanese": "レイザーバニー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アイスコロッソス",
+      "en": "Ice Colossus",
+      "zh": "冰霜巨像",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38784A00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd"
+      ],
+      "source_japanese": [
+        "アイスコロッソス"
+      ],
+      "lookup_japanese": "アイスコロッソス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アイアンプリズナーI",
+      "en": "Iron Imprisoner I",
+      "zh": "钢铁囚徒Ⅰ",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A000#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "アイアンプリズナーⅠ"
+      ],
+      "lookup_japanese": "アイアンプリズナーI",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アイアンプリズナーII",
+      "en": "Iron Imprisoner II",
+      "zh": "钢铁囚徒Ⅱ",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A100#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "アイアンプリズナーⅡ"
+      ],
+      "lookup_japanese": "アイアンプリズナーII",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アイアンプリズナーIII",
+      "en": "Iron Imprisoner III",
+      "zh": "钢铁囚徒Ⅲ",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A200#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "アイアンプリズナーⅢ"
+      ],
+      "lookup_japanese": "アイアンプリズナーIII",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "アイアンプリズナーIV",
+      "en": "Iron Imprisoner IV",
+      "zh": "钢铁囚徒Ⅳ",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A300#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "アイアンプリズナーⅣ"
+      ],
+      "lookup_japanese": "アイアンプリズナーIV",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ピーターパン",
+      "en": "Peter Pan",
+      "zh": "彼得潘",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x3000000B#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd"
+      ],
+      "source_japanese": [
+        "ピーターパン"
+      ],
+      "lookup_japanese": "ピーターパン",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "テラ",
+      "en": "Terra",
+      "zh": "泰拉",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000003#1",
+        "message/jp/battledice/CTbd000.ctd#0x30000006#1",
+        "message/jp/event/cd/CTcd300.ctd#0x06971500#1",
+        "message/jp/event/dp/CTdp200.ctd#0x0264A100#1",
+        "message/jp/event/dp/CTdp400.ctd#0x02C90E00#1",
+        "message/jp/event/he/CThe300.ctd#0x10980300#1",
+        "message/jp/event/jb/CTjb300.ctd#0x0E968000#1",
+        "message/jp/event/pp/CTpp300.ctd#0x16981300#1",
+        "message/jp/event/rg/CTrg300.ctd#0x0C9B0D00#1",
+        "message/jp/event/yt/CTyt200.ctd#0x0A648700#1",
+        "message/jp/event/yt/CTyt200.ctd#0x0A651E00#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88100#1",
+        "message/jp/report/CTrp140.ctd#0x38460300#1",
+        "message/jp/report/CTrp240.ctd#0x38780300#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0300#1",
+        "message/jp/report/CTrp500.ctd#0x38FA0602#1",
+        "message/jp/system/CT00000.ctd#0x00000302#1",
+        "message/jp/system/CT00500.ctd#0x00FA016F#1",
+        "message/jp/system/CT00500.ctd#0x00FA0180#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/cd/CTcd300.ctd",
+        "message/jp/event/dp/CTdp200.ctd",
+        "message/jp/event/dp/CTdp400.ctd",
+        "message/jp/event/he/CThe300.ctd",
+        "message/jp/event/jb/CTjb300.ctd",
+        "message/jp/event/pp/CTpp300.ctd",
+        "message/jp/event/rg/CTrg300.ctd",
+        "message/jp/event/yt/CTyt200.ctd",
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp500.ctd",
+        "message/jp/system/CT00000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "テラ"
+      ],
+      "lookup_japanese": "テラ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "仮面の少年",
+      "en": "The Masked Boy",
+      "zh": "戴面具的少年",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38460800#1",
+        "message/jp/report/CTrp240.ctd#0x38780800#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0800#1",
+        "message/jp/report/CTrp600.ctd#0x392C0207#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp600.ctd"
+      ],
+      "source_japanese": [
+        "仮面の少年"
+      ],
+      "lookup_japanese": "仮面の少年",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ヴァニタス",
+      "en": "Vanitas",
+      "zh": "瓦尼塔斯",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38460900#1",
+        "message/jp/report/CTrp240.ctd#0x38780900#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0900#1",
+        "message/jp/system/CT00500.ctd#0x00FA0173#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ヴァニタス"
+      ],
+      "lookup_japanese": "ヴァニタス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ヴェントゥス",
+      "en": "Ventus",
+      "zh": "维恩图斯",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000001#1",
+        "message/jp/battledice/CTbd000.ctd#0x30000004#1",
+        "message/jp/event/rg/CTrg100.ctd#0x0C378A00#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88101#1",
+        "message/jp/report/CTrp140.ctd#0x38460100#1",
+        "message/jp/report/CTrp240.ctd#0x38780100#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0100#1",
+        "message/jp/report/CTrp500.ctd#0x38FA0601#1",
+        "message/jp/system/CT00000.ctd#0x00000300#1",
+        "message/jp/system/CT00500.ctd#0x00FA016E#1",
+        "message/jp/system/CT00500.ctd#0x00FA017F#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/rg/CTrg100.ctd",
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp500.ctd",
+        "message/jp/system/CT00000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ヴェントゥス"
+      ],
+      "lookup_japanese": "ヴェントゥス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "謎の男",
+      "en": "Unknown",
+      "zh": "神秘的男人",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38460F00#1",
+        "message/jp/report/CTrp240.ctd#0x38780F00#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0F00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "謎の男"
+      ],
+      "lookup_japanese": "謎の男",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ザックス",
+      "en": "Zack",
+      "zh": "扎克斯",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38464B00#1",
+        "message/jp/report/CTrp240.ctd#0x38784B00#1",
+        "message/jp/report/CTrp340.ctd#0x38AA4B00#1",
+        "message/jp/system/CT00500.ctd#0x00FA016B#1",
+        "message/jp/system/CT00500.ctd#0x00FA017C#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ザックス"
+      ],
+      "lookup_japanese": "ザックス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "シェイドジェリー",
+      "en": "Jellyshade",
+      "zh": "幽影水母",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008B00#1",
+        "message/jp/report/CTrp000.ctd#0x3800AA00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "シェイドジェリー"
+      ],
+      "lookup_japanese": "シェイドジェリー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ロストランナー",
+      "en": "Lone Runner",
+      "zh": "迷失奔跑者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A600#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ロストランナー"
+      ],
+      "lookup_japanese": "ロストランナー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マッドトレント",
+      "en": "Mad Treant",
+      "zh": "疯狂树妖",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009A00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "マッドトレント"
+      ],
+      "lookup_japanese": "マッドトレント",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "マレフィセントの手下",
+      "en": "Maleficent's Goons",
+      "zh": "梅尔菲森特的手下",
+      "keys": [
+        "message/jp/mission/CTsb600.ctd#0x092C0400#1",
+        "message/jp/mission/CTsb600.ctd#0x092C0500#1"
+      ],
+      "resources": [
+        "message/jp/mission/CTsb600.ctd"
+      ],
+      "source_japanese": [
+        "マレフィセントの手下をやっつけろ！"
+      ],
+      "lookup_japanese": "マレフィセントの手下をやっつけろ！",
+      "extraction": "^击败(.+)！$"
+    },
+    {
+      "kind": "enemy",
+      "ja": "マンドレイク",
+      "en": "Mandrake",
+      "zh": "曼德拉草",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009300#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "マンドレイク"
+      ],
+      "lookup_japanese": "マンドレイク",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "メタモルフォシス",
+      "en": "Metamorphosis",
+      "zh": "蜕变魔",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009E00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "メタモルフォシス"
+      ],
+      "lookup_japanese": "メタモルフォシス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ミミックマスター",
+      "en": "Mimic Master",
+      "zh": "模仿大师",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009F00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ミミックマスター"
+      ],
+      "lookup_japanese": "ミミックマスター",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "モノトラッカー",
+      "en": "Monotrucker",
+      "zh": "独轮矿车",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008500#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "モノトラッカー"
+      ],
+      "lookup_japanese": "モノトラッカー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ネオシャドウ",
+      "en": "Neoshadow",
+      "zh": "新型阴影",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38788100#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd"
+      ],
+      "source_japanese": [
+        "ネオシャドウ"
+      ],
+      "lookup_japanese": "ネオシャドウ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ノーハート",
+      "en": "No Heart",
+      "zh": "空心之铠",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38468500#1",
+        "message/jp/report/CTrp240.ctd#0x38788500#1",
+        "message/jp/report/CTrp340.ctd#0x38AA8500#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "ノーハート"
+      ],
+      "lookup_japanese": "ノーハート",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "プライズポット",
+      "en": "Prize Pod",
+      "zh": "奖励罐",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009700#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "プライズポット"
+      ],
+      "lookup_japanese": "プライズポット",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "レッドホットチリ",
+      "en": "Red Hot Chili",
+      "zh": "红辣椒",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008400#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "レッドホットチリ"
+      ],
+      "lookup_japanese": "レッドホットチリ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "リンガーポット",
+      "en": "Ringer",
+      "zh": "鸣铃罐",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A900#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "リンガーポット"
+      ],
+      "lookup_japanese": "リンガーポット",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "スクラッパー",
+      "en": "Scrapper",
+      "zh": "斗殴者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008200#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "スクラッパー"
+      ],
+      "lookup_japanese": "スクラッパー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "シャドウ",
+      "en": "Shadow",
+      "zh": "阴影",
+      "keys": [
+        "message/jp/report/CTrp240.ctd#0x38788000#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp240.ctd"
+      ],
+      "source_japanese": [
+        "シャドウ"
+      ],
+      "lookup_japanese": "シャドウ",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "シューゲイザー",
+      "en": "Shoegazer",
+      "zh": "盯鞋者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008700#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "シューゲイザー"
+      ],
+      "lookup_japanese": "シューゲイザー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ソニックブラスター",
+      "en": "Sonic Blaster",
+      "zh": "音速爆能机",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008E00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ソニックブラスター"
+      ],
+      "lookup_japanese": "ソニックブラスター",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "チェストスパイダー",
+      "en": "Spiderchest",
+      "zh": "宝箱蜘蛛",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008800#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "チェストスパイダー"
+      ],
+      "lookup_japanese": "チェストスパイダー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "シンフォニーマスター",
+      "en": "Symphony Master",
+      "zh": "交响乐大师",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009B00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "シンフォニーマスター"
+      ],
+      "lookup_japanese": "シンフォニーマスター",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "イリタブルタンク",
+      "en": "Tank Toppler",
+      "zh": "易怒气罐",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008C00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "イリタブルタンク"
+      ],
+      "lookup_japanese": "イリタブルタンク",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ソーンバイト",
+      "en": "Thornbite",
+      "zh": "刺咬荆棘",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008600#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ソーンバイト"
+      ],
+      "lookup_japanese": "ソーンバイト",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "トリニティアーマー",
+      "en": "Trinity Armor",
+      "zh": "三位一体装甲",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A400#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "トリニティアーマー"
+      ],
+      "lookup_japanese": "トリニティアーマー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "パイルフェイス",
+      "en": "Triple Wrecker",
+      "zh": "叠面柱",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008F00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "パイルフェイス"
+      ],
+      "lookup_japanese": "パイルフェイス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ヴァニタスの思念",
+      "en": "Vanitas Remnant",
+      "zh": "瓦尼塔斯的思念",
+      "keys": [
+        "message/jp/report/CTrp140.ctd#0x38460B00#1",
+        "message/jp/report/CTrp240.ctd#0x38780B00#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0B00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd"
+      ],
+      "source_japanese": [
+        "ヴァニタスの思念"
+      ],
+      "lookup_japanese": "ヴァニタスの思念",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ヴェントゥス=ヴァニタス",
+      "en": "Ventus-Vanitas",
+      "zh": "维恩图斯＝瓦尼塔斯",
+      "keys": [
+        "message/jp/report/CTrp700.ctd#0x395E0D04#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp700.ctd"
+      ],
+      "source_japanese": [
+        "ヴェントゥス＝ヴァニタス"
+      ],
+      "lookup_japanese": "ヴェントゥス=ヴァニタス",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "メディシンボトル",
+      "en": "Vile Phial",
+      "zh": "药瓶",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38008D00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "メディシンボトル"
+      ],
+      "lookup_japanese": "メディシンボトル",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "サバイバルボトル",
+      "en": "Vitality Vial",
+      "zh": "生存药瓶",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x3800A700#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "サバイバルボトル"
+      ],
+      "lookup_japanese": "サバイバルボトル",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ホイールマスター",
+      "en": "Wheel Master",
+      "zh": "纺车大师",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009D00#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ホイールマスター"
+      ],
+      "lookup_japanese": "ホイールマスター",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "ワイルドブルーザー",
+      "en": "Wild Bruiser",
+      "zh": "狂野蛮横者",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009000#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "ワイルドブルーザー"
+      ],
+      "lookup_japanese": "ワイルドブルーザー",
+      "extraction": null
+    },
+    {
+      "kind": "enemy",
+      "ja": "イエローマスタード",
+      "en": "Yellow Mustard",
+      "zh": "黄芥末",
+      "keys": [
+        "message/jp/report/CTrp000.ctd#0x38009200#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp000.ctd"
+      ],
+      "source_japanese": [
+        "イエローマスタード"
+      ],
+      "lookup_japanese": "イエローマスタード",
+      "extraction": null
+    },
+    {
+      "kind": "label",
+      "ja": "テラ",
+      "en": "Terra",
+      "zh": "泰拉",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000003#1",
+        "message/jp/battledice/CTbd000.ctd#0x30000006#1",
+        "message/jp/event/cd/CTcd300.ctd#0x06971500#1",
+        "message/jp/event/dp/CTdp200.ctd#0x0264A100#1",
+        "message/jp/event/dp/CTdp400.ctd#0x02C90E00#1",
+        "message/jp/event/he/CThe300.ctd#0x10980300#1",
+        "message/jp/event/jb/CTjb300.ctd#0x0E968000#1",
+        "message/jp/event/pp/CTpp300.ctd#0x16981300#1",
+        "message/jp/event/rg/CTrg300.ctd#0x0C9B0D00#1",
+        "message/jp/event/yt/CTyt200.ctd#0x0A648700#1",
+        "message/jp/event/yt/CTyt200.ctd#0x0A651E00#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88100#1",
+        "message/jp/report/CTrp140.ctd#0x38460300#1",
+        "message/jp/report/CTrp240.ctd#0x38780300#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0300#1",
+        "message/jp/report/CTrp500.ctd#0x38FA0602#1",
+        "message/jp/system/CT00000.ctd#0x00000302#1",
+        "message/jp/system/CT00500.ctd#0x00FA016F#1",
+        "message/jp/system/CT00500.ctd#0x00FA0180#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/cd/CTcd300.ctd",
+        "message/jp/event/dp/CTdp200.ctd",
+        "message/jp/event/dp/CTdp400.ctd",
+        "message/jp/event/he/CThe300.ctd",
+        "message/jp/event/jb/CTjb300.ctd",
+        "message/jp/event/pp/CTpp300.ctd",
+        "message/jp/event/rg/CTrg300.ctd",
+        "message/jp/event/yt/CTyt200.ctd",
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp500.ctd",
+        "message/jp/system/CT00000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "テラ"
+      ],
+      "lookup_japanese": "テラ",
+      "extraction": null
+    },
+    {
+      "kind": "label",
+      "ja": "ヴェントゥス",
+      "en": "Ventus",
+      "zh": "维恩图斯",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000001#1",
+        "message/jp/battledice/CTbd000.ctd#0x30000004#1",
+        "message/jp/event/rg/CTrg100.ctd#0x0C378A00#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88101#1",
+        "message/jp/report/CTrp140.ctd#0x38460100#1",
+        "message/jp/report/CTrp240.ctd#0x38780100#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0100#1",
+        "message/jp/report/CTrp500.ctd#0x38FA0601#1",
+        "message/jp/system/CT00000.ctd#0x00000300#1",
+        "message/jp/system/CT00500.ctd#0x00FA016E#1",
+        "message/jp/system/CT00500.ctd#0x00FA017F#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/rg/CTrg100.ctd",
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp500.ctd",
+        "message/jp/system/CT00000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ヴェントゥス"
+      ],
+      "lookup_japanese": "ヴェントゥス",
+      "extraction": null
+    },
+    {
+      "kind": "label",
+      "ja": "アクア",
+      "en": "Aqua",
+      "zh": "阿库娅",
+      "keys": [
+        "message/jp/battledice/CTbd000.ctd#0x30000002#1",
+        "message/jp/battledice/CTbd000.ctd#0x30000005#1",
+        "message/jp/event/cd/CTcd200.ctd#0x06649400#1",
+        "message/jp/event/cd/CTcd300.ctd#0x06999400#1",
+        "message/jp/event/he/CThe200.ctd#0x10669C00#1",
+        "message/jp/minigame/CTmg400.ctd#0x36C88102#1",
+        "message/jp/report/CTrp140.ctd#0x38460200#1",
+        "message/jp/report/CTrp240.ctd#0x38780200#1",
+        "message/jp/report/CTrp340.ctd#0x38AA0200#1",
+        "message/jp/report/CTrp500.ctd#0x38FA0603#1",
+        "message/jp/system/CT00000.ctd#0x00000301#1",
+        "message/jp/system/CT00500.ctd#0x00FA016D#1",
+        "message/jp/system/CT00500.ctd#0x00FA017E#1"
+      ],
+      "resources": [
+        "message/jp/battledice/CTbd000.ctd",
+        "message/jp/event/cd/CTcd200.ctd",
+        "message/jp/event/cd/CTcd300.ctd",
+        "message/jp/event/he/CThe200.ctd",
+        "message/jp/minigame/CTmg400.ctd",
+        "message/jp/report/CTrp140.ctd",
+        "message/jp/report/CTrp240.ctd",
+        "message/jp/report/CTrp340.ctd",
+        "message/jp/report/CTrp500.ctd",
+        "message/jp/system/CT00000.ctd",
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "アクア"
+      ],
+      "lookup_japanese": "アクア",
+      "extraction": null
+    },
+    {
+      "kind": "label",
+      "ja": "ラックアップ",
+      "en": "Lucky Strike",
+      "zh": "幸运提升",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA01C7#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "ラックアップ"
+      ],
+      "lookup_japanese": "ラックアップ",
+      "extraction": null
+    },
+    {
+      "kind": "label",
+      "ja": "トレジャーレイド",
+      "en": "Treasure Raid",
+      "zh": "宝藏飞掷",
+      "keys": [
+        "message/jp/system/CT00500.ctd#0x00FA0067#1"
+      ],
+      "resources": [
+        "message/jp/system/CT00500.ctd"
+      ],
+      "source_japanese": [
+        "トレジャーレイド"
+      ],
+      "lookup_japanese": "トレジャーレイド",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "エンチャンテッド・ドミニオン",
+      "en": "Enchanted Dominion",
+      "zh": "魔法领地",
+      "keys": [
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80300#1",
+        "message/jp/report/CTrp100.ctd#0x38320300#1",
+        "message/jp/report/CTrp200.ctd#0x38640300#1",
+        "message/jp/report/CTrp300.ctd#0x38960100#1",
+        "message/jp/system/CT00000.ctd#0x00190400#1"
+      ],
+      "resources": [
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "エンチャンテッド・ドミニオン"
+      ],
+      "lookup_japanese": "エンチャンテッド・ドミニオン",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "キャッスル・オブ・ドリーム",
+      "en": "Castle of Dreams",
+      "zh": "梦想城堡",
+      "keys": [
+        "message/jp/event/cd/CTcd100.ctd#0x06328800#1",
+        "message/jp/event/cd/CTcd200.ctd#0x06649E00#1",
+        "message/jp/event/cd/CTcd300.ctd#0x06971F00#1",
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80200#1",
+        "message/jp/network/CTvs100.ctd#0x1C381405#1",
+        "message/jp/report/CTrp100.ctd#0x38320200#1",
+        "message/jp/report/CTrp200.ctd#0x38640100#1",
+        "message/jp/report/CTrp300.ctd#0x38960300#1",
+        "message/jp/system/CT00000.ctd#0x00190300#1"
+      ],
+      "resources": [
+        "message/jp/event/cd/CTcd100.ctd",
+        "message/jp/event/cd/CTcd200.ctd",
+        "message/jp/event/cd/CTcd300.ctd",
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/network/CTvs100.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "キャッスル・オブ・ドリーム"
+      ],
+      "lookup_japanese": "キャッスル・オブ・ドリーム",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "ドワーフ・ウッドランド",
+      "en": "Dwarf Woodlands",
+      "zh": "矮人森林",
+      "keys": [
+        "message/jp/event/sw/CTsw400.ctd#0x04C80000#1",
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80100#1",
+        "message/jp/report/CTrp100.ctd#0x38320100#1",
+        "message/jp/report/CTrp200.ctd#0x38640200#1",
+        "message/jp/report/CTrp300.ctd#0x38960200#1",
+        "message/jp/system/CT00000.ctd#0x00190200#1"
+      ],
+      "resources": [
+        "message/jp/event/sw/CTsw400.ctd",
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "ドワーフ・ウッドランド"
+      ],
+      "lookup_japanese": "ドワーフ・ウッドランド",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "ミステリアス・タワー",
+      "en": "Mysterious Tower",
+      "zh": "不可思议之塔",
+      "keys": [
+        "message/jp/event/yt/CTyt100.ctd#0x0A328A00#1",
+        "message/jp/event/yt/CTyt200.ctd#0x0A640000#1",
+        "message/jp/event/yt/CTyt300.ctd#0x0A968000#1"
+      ],
+      "resources": [
+        "message/jp/event/yt/CTyt100.ctd",
+        "message/jp/event/yt/CTyt200.ctd",
+        "message/jp/event/yt/CTyt300.ctd"
+      ],
+      "source_japanese": [
+        "ミステリアス・タワー"
+      ],
+      "lookup_japanese": "ミステリアス・タワー",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "レイディアントガーデン",
+      "en": "Radiant Garden",
+      "zh": "光辉庭院",
+      "keys": [
+        "message/jp/event/rg/CTrg100.ctd#0x0C328200#1",
+        "message/jp/event/rg/CTrg200.ctd#0x0C648800#1",
+        "message/jp/event/rg/CTrg300.ctd#0x0C970000#1",
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80500#1",
+        "message/jp/report/CTrp100.ctd#0x38320500#1",
+        "message/jp/report/CTrp200.ctd#0x38640400#1",
+        "message/jp/report/CTrp300.ctd#0x38960600#1",
+        "message/jp/system/CT00000.ctd#0x00190600#1"
+      ],
+      "resources": [
+        "message/jp/event/rg/CTrg100.ctd",
+        "message/jp/event/rg/CTrg200.ctd",
+        "message/jp/event/rg/CTrg300.ctd",
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "レイディアントガーデン"
+      ],
+      "lookup_japanese": "レイディアントガーデン",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "ディズニータウン",
+      "en": "Disney Town",
+      "zh": "迪士尼小镇",
+      "keys": [
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80600#1",
+        "message/jp/network/CTvs100.ctd#0x1C381403#1",
+        "message/jp/report/CTrp100.ctd#0x38320600#1",
+        "message/jp/report/CTrp200.ctd#0x38640500#1",
+        "message/jp/report/CTrp300.ctd#0x38960700#1",
+        "message/jp/system/CT00000.ctd#0x00190C00#1"
+      ],
+      "resources": [
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/network/CTvs100.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "ディズニータウン"
+      ],
+      "lookup_japanese": "ディズニータウン",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "オリンポスコロシアム",
+      "en": "Olympus Coliseum",
+      "zh": "奥林匹斯斗技场",
+      "keys": [
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80A00#1",
+        "message/jp/network/CTvs100.ctd#0x1C381400#1",
+        "message/jp/report/CTrp100.ctd#0x38320700#1",
+        "message/jp/report/CTrp200.ctd#0x38640600#1",
+        "message/jp/report/CTrp300.ctd#0x38960800#1",
+        "message/jp/system/CT00000.ctd#0x00190800#1"
+      ],
+      "resources": [
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/network/CTvs100.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "オリンポスコロシアム"
+      ],
+      "lookup_japanese": "オリンポスコロシアム",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "ディープスペース",
+      "en": "Deep Space",
+      "zh": "深空",
+      "keys": [
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80800#1",
+        "message/jp/network/CTvs100.ctd#0x1C381404#1",
+        "message/jp/report/CTrp100.ctd#0x38320800#1",
+        "message/jp/report/CTrp200.ctd#0x38640700#1",
+        "message/jp/report/CTrp300.ctd#0x38960900#1",
+        "message/jp/system/CT00000.ctd#0x00190900#1"
+      ],
+      "resources": [
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/network/CTvs100.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "ディープスペース"
+      ],
+      "lookup_japanese": "ディープスペース",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "ネバーランド",
+      "en": "Neverland",
+      "zh": "梦幻岛",
+      "keys": [
+        "message/jp/event/pp/CTpp100.ctd#0x16328000#1",
+        "message/jp/event/pp/CTpp200.ctd#0x16649F00#1",
+        "message/jp/event/pp/CTpp300.ctd#0x16972100#1",
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80700#1",
+        "message/jp/report/CTrp100.ctd#0x38320900#1",
+        "message/jp/report/CTrp200.ctd#0x38640800#1",
+        "message/jp/report/CTrp300.ctd#0x38960A00#1",
+        "message/jp/system/CT00000.ctd#0x00190B00#1"
+      ],
+      "resources": [
+        "message/jp/event/pp/CTpp100.ctd",
+        "message/jp/event/pp/CTpp200.ctd",
+        "message/jp/event/pp/CTpp300.ctd",
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "ネバーランド"
+      ],
+      "lookup_japanese": "ネバーランド",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "キーブレード墓場",
+      "en": "Keyblade Graveyard",
+      "zh": "键刃墓场",
+      "keys": [
+        "message/jp/report/CTrp100.ctd#0x38320E00#1",
+        "message/jp/report/CTrp200.ctd#0x38640B00#1",
+        "message/jp/report/CTrp300.ctd#0x38960E00#1",
+        "message/jp/system/CT00000.ctd#0x00190D00#1",
+        "message/jp/system/CT00000.ctd#0x00190D08#1",
+        "message/jp/system/CT00000.ctd#0x00190D09#1",
+        "message/jp/system/CT00000.ctd#0x00190D0A#1",
+        "message/jp/system/CT00000.ctd#0x00190D0C#1",
+        "message/jp/system/CT00000.ctd#0x00190D37#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "キーブレード墓場"
+      ],
+      "lookup_japanese": "キーブレード墓場",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "旅立ちの地",
+      "en": "Land of Departure",
+      "zh": "启程之地",
+      "keys": [
+        "message/jp/report/CTrp100.ctd#0x38320000#1",
+        "message/jp/report/CTrp100.ctd#0x38320C00#1",
+        "message/jp/report/CTrp200.ctd#0x38640000#1",
+        "message/jp/report/CTrp300.ctd#0x38960000#1",
+        "message/jp/report/CTrp300.ctd#0x38960D00#1",
+        "message/jp/system/CT00000.ctd#0x00190100#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp100.ctd",
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp300.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "旅立ちの地"
+      ],
+      "lookup_japanese": "旅立ちの地",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "闇の世界",
+      "en": "Realm of Darkness",
+      "zh": "黑暗世界",
+      "keys": [
+        "message/jp/report/CTrp200.ctd#0x38648000#1",
+        "message/jp/report/CTrp700.ctd#0x395E1001#1",
+        "message/jp/system/CT00000.ctd#0x00190734#1"
+      ],
+      "resources": [
+        "message/jp/report/CTrp200.ctd",
+        "message/jp/report/CTrp700.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "闇の世界"
+      ],
+      "lookup_japanese": "闇の世界",
+      "extraction": null
+    },
+    {
+      "kind": "world",
+      "ja": "ミラージュアリーナ",
+      "en": "Mirage Arena",
+      "zh": "幻影竞技场",
+      "keys": [
+        "message/jp/event/wm/CTwm400.ctd#0x1EC80B00#1",
+        "message/jp/menu/CTmn200.ctd#0x34640004#1",
+        "message/jp/network/CTvs100.ctd#0x1C320A00#1",
+        "message/jp/network/CTvs100.ctd#0x1C381401#1",
+        "message/jp/system/CT00000.ctd#0x00190F00#1"
+      ],
+      "resources": [
+        "message/jp/event/wm/CTwm400.ctd",
+        "message/jp/menu/CTmn200.ctd",
+        "message/jp/network/CTvs100.ctd",
+        "message/jp/system/CT00000.ctd"
+      ],
+      "source_japanese": [
+        "ミラージュアリーナ"
+      ],
+      "lookup_japanese": "ミラージュアリーナ",
+      "extraction": null
+    }
+  ],
+  "unresolved": [
+    {
+      "kind": "enemy",
+      "ja": "ブラスター",
+      "en": "Blaster",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ダークハイド",
+      "en": "Dark Hide",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "監獄",
+      "en": "Prison",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "テラ=ゼアノート",
+      "en": "Terra-Xehanort",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ニセモノテラ",
+      "en": "Fake Terra",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ニセモノヴェントゥス",
+      "en": "Fake Ventus",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ニセモノアクア",
+      "en": "Fake Aqua",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "マスター・ゼアノートのキーブレード",
+      "en": "No Name",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "光の玉",
+      "en": "Orb of Light",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ラッパ",
+      "en": "Trumpet",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "バイオリン",
+      "en": "Violin",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ドラム",
+      "en": "Drum",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "αアーマー",
+      "en": "α Armor",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "βアーマー",
+      "en": "β Armor",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "γアーマー",
+      "en": "γ Armor",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "糸巻き",
+      "en": "Spindle",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "ホイール",
+      "en": "Wheel",
+      "reason": "not_found",
+      "candidates": []
+    },
+    {
+      "kind": "enemy",
+      "ja": "うしろの人",
+      "en": "Dark Figure",
+      "reason": "not_found",
+      "candidates": []
+    }
+  ]
+}

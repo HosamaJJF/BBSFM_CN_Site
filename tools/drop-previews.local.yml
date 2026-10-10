@@ -1,0 +1,4 @@
+# Local review only. Production _config.yml and its output remain unchanged.
+url: http://127.0.0.1:5001
+public_dir: ../work/cache/blog-drop-previews/public
+render_drafts: false
