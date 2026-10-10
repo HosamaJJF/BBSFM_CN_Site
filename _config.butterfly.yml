@@ -8,6 +8,7 @@ menu:
   首页: / || fas fa-home
   补丁发布: /categories/补丁发布/ || fas fa-download
   开发记录: /categories/开发记录/ || fas fa-book-open
+  攻略资料: /categories/攻略资料/ || fas fa-gamepad
   归档: /archives/ || fas fa-archive
   友情链接: /friends/ || fas fa-link
   关于: /about/ || fas fa-circle-info

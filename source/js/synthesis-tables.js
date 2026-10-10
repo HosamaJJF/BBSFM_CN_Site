@@ -1,6 +1,6 @@
 (() => {
   function enhanceTables() {
-    document.querySelectorAll('.synthesis-section .synthesis-table-wrap').forEach(wrap => {
+    document.querySelectorAll('.synthesis-section .synthesis-table-wrap, .d-link-table-wrap').forEach(wrap => {
       if (wrap.dataset.scrollControls) return;
       wrap.dataset.scrollControls = 'true';
 

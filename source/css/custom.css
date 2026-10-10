@@ -152,7 +152,8 @@
   margin: 1rem 0 2rem;
 }
 
-#article-container .synthesis-table-panel .synthesis-table-wrap {
+#article-container .synthesis-table-panel .synthesis-table-wrap,
+#article-container .synthesis-table-panel .d-link-table-wrap {
   margin: 0;
 }
 
@@ -684,4 +685,66 @@
   #article-container .synthesis-search-fields select {
     font-size: 16px;
   }
+}
+
+/* D-Link effects stay beside their names while long descriptions wrap. */
+#article-container .d-link-table-wrap {
+  max-width: 100%;
+  margin: 1rem 0 2rem;
+  overflow-x: auto;
+  border: 1px solid var(--light-grey, #aab8c7);
+  border-radius: .5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+#article-container .d-link-table-wrap > .table-wrap {
+  margin: 0;
+  overflow: visible;
+}
+
+#article-container .d-link-table {
+  width: 100%;
+  min-width: 1100px;
+  margin: 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+  line-height: 1.65;
+}
+
+#article-container .d-link-table caption {
+  padding: .6rem;
+  color: var(--font-color);
+  text-align: left;
+  font-weight: 700;
+}
+
+#article-container .d-link-table th,
+#article-container .d-link-table td {
+  padding: .65rem;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+#article-container .d-link-table thead th {
+  color: #fff;
+  background: #254b78;
+}
+
+#article-container .d-link-table th:nth-child(1) { width: 11%; }
+#article-container .d-link-table th:nth-child(2) { width: 12%; }
+#article-container .d-link-table th:nth-child(3),
+#article-container .d-link-table th:nth-child(4) { width: 22%; }
+#article-container .d-link-table th:nth-child(5) { width: 21%; }
+
+#article-container .d-link-table .d-link-character {
+  width: 4%;
+  padding: .65rem .25rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#article-container .d-link-table-wrap:focus-visible {
+  outline: 2px solid #467ba9;
+  outline-offset: 3px;
 }
