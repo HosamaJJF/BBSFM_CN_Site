@@ -7,7 +7,7 @@ in these paths:
 - scripts/
 - source/css/
 - scaffolds/
-- _config.yml, _config.butterfly.yml, _multiconfig.yml, and package.json
+- _config.yml, _config.butterfly.yml, and package.json
 
 It does not apply to articles, page text, data, or images under source/, or to
 other files in this repository. No additional permission to reuse those works

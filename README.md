@@ -20,6 +20,10 @@ npm run new:release -- "BBSFM 简体中文补丁 1.0.4"
 
 然后编辑 `source/_posts/` 中新生成的 Markdown 文件。版本、文件名、SHA-256、下载地址、更新内容和已知问题均在文章中直接修改。
 
+## 维护攻略文章
+
+攻略的正文和表格直接维护在 `source/_posts/` 的 Markdown 文件中，运行 `npm run build` 即可生成网站。合成与掉落查询所需的浏览器脚本和样式保存在 `source/js/`、`source/css/`，由 `scripts/` 中的 Hexo 扩展加载；合成表的 Excel 下载附件保存在 `source/downloads/`。
+
 ## 修改友情链接
 
 编辑 `source/_data/link.yml`。复制一项 `name / link / avatar / descr`，替换成其他汉化作者的实际信息即可。
