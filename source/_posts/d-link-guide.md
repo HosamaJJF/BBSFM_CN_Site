@@ -9,6 +9,7 @@ tags:
   - D-Link
   - 次元链接
 description: D-Link 的发动、升级与解除方法，全部链接对象的获取条件、可用角色，以及与 1.1.2 版汉化补丁对齐的效果名称和具体说明。
+cover: /img/cover008.png
 ---
 
 本文根据 [KHWiki 的 Dimension Link 页面](https://www.khwiki.com/Dimension_Link)及其关联能力词条译写整理，人物、地点和效果名称与本站汉化译名对齐。
@@ -48,7 +49,7 @@ description: D-Link 的发动、升级与解除方法，全部链接对象的获
 <table class="d-link-table">
 <caption>D-Link 获取条件、效果与可用角色（译名同步至1.1.2版补丁）</caption>
 <thead>
-<tr><th scope="col">D-Link 对象</th><th scope="col">战斗特点</th><th scope="col">1 枚标记：效果与说明</th><th scope="col">2 枚标记：效果与说明</th><th scope="col">获取条件</th><th scope="col" class="d-link-character">泰</th><th scope="col" class="d-link-character">维</th><th scope="col" class="d-link-character">雅</th></tr>
+<tr><th scope="col">D-Link 对象</th><th scope="col">战斗特点</th><th scope="col">1 枚标记：</th><th scope="col">2 枚标记：</th><th scope="col">获取条件</th><th scope="col" class="d-link-character">泰</th><th scope="col" class="d-link-character">维</th><th scope="col" class="d-link-character">雅</th></tr>
 </thead>
 <tbody>
 <tr>
@@ -158,8 +159,8 @@ description: D-Link 的发动、升级与解除方法，全部链接对象的获
 <tr>
 <th scope="row">瓦尼塔斯<br>（剧情专用）</th>
 <td>仅在指定剧情战斗中出现。</td>
-<td>—<br>不通过徽章解锁常规效果。</td>
-<td>—<br>不通过徽章解锁常规效果。</td>
+<td>—<br>不通过象征标记解锁常规效果。</td>
+<td>—<br>不通过象征标记解锁常规效果。</td>
 <td>在「维恩图斯的精神世界」与瓦尼塔斯交战，将<strong>瓦尼塔斯的 HP</strong>削减至 1 后，进入专用链接阶段。</td>
 <td class="d-link-character">—</td><td class="d-link-character">○</td><td class="d-link-character">—</td>
 </tr>
@@ -177,7 +178,7 @@ PSP原版以及PSP最终混合版可以在「幻影竞技场」通过无线联�
 <table class="d-link-table">
 <caption>PSP 联机专用 D-Link（HD 合集／PC 版不可取得）</caption>
 <thead>
-<tr><th scope="col">D-Link 对象</th><th scope="col">指令来源</th><th scope="col">1 枚徽章：效果与说明</th><th scope="col">2 枚徽章：效果与说明</th><th scope="col">获取条件</th><th scope="col" class="d-link-character">泰</th><th scope="col" class="d-link-character">维</th><th scope="col" class="d-link-character">雅</th></tr>
+<tr><th scope="col">D-Link 对象</th><th scope="col">指令来源</th><th scope="col">1 枚标记：</th><th scope="col">2 枚标记：</th><th scope="col">获取条件</th><th scope="col" class="d-link-character">泰</th><th scope="col" class="d-link-character">维</th><th scope="col" class="d-link-character">雅</th></tr>
 </thead>
 <tbody>
 <tr>
