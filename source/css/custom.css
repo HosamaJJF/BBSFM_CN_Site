@@ -154,7 +154,8 @@
 
 #article-container .synthesis-table-panel .synthesis-table-wrap,
 #article-container .synthesis-table-panel .d-link-table-wrap,
-#article-container .synthesis-table-panel .finish-command-table-wrap {
+#article-container .synthesis-table-panel .finish-command-table-wrap,
+#article-container .synthesis-table-panel .ability-table-wrap {
   margin: 0;
 }
 
@@ -820,6 +821,78 @@
 }
 
 #article-container .finish-command-table-wrap:focus-visible {
+  outline: 2px solid #467ba9;
+  outline-offset: 3px;
+}
+
+#article-container .ability-table-wrap {
+  max-width: 100%;
+  margin: 1rem 0 2rem;
+  overflow-x: auto;
+  border: 1px solid var(--light-grey, #aab8c7);
+  border-radius: .5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+#article-container .ability-table-wrap > .table-wrap {
+  margin: 0;
+  overflow: visible;
+}
+
+#article-container .ability-table {
+  width: 100%;
+  min-width: 1040px;
+  margin: 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+  line-height: 1.65;
+}
+
+#article-container .ability-table caption {
+  padding: .6rem;
+  color: var(--font-color);
+  text-align: left;
+  font-weight: 700;
+}
+
+#article-container .ability-table th,
+#article-container .ability-table td {
+  padding: .65rem;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+#article-container .ability-table thead th {
+  color: #fff;
+  background: #254b78;
+}
+
+#article-container .ability-table thead th:nth-child(1) { width: 21%; }
+#article-container .ability-table thead th:nth-child(2) { width: 32%; }
+#article-container .ability-table thead th:nth-child(3) { width: 7%; }
+#article-container .ability-table thead th:nth-child(4) { width: 12%; }
+#article-container .ability-table thead th:nth-child(5) { width: 28%; }
+
+#article-container .ability-table td:nth-child(3) {
+  text-align: center;
+  white-space: nowrap;
+}
+
+#article-container .ability-table .ability-name-cn,
+#article-container .ability-table .ability-name-ja,
+#article-container .ability-table .ability-name-en {
+  display: block;
+  line-height: 1.5;
+}
+
+#article-container .ability-table .ability-name-ja,
+#article-container .ability-table .ability-name-en {
+  font-size: .88em;
+  font-weight: 400;
+}
+
+#article-container .ability-table-wrap:focus-visible {
   outline: 2px solid #467ba9;
   outline-offset: 3px;
 }
