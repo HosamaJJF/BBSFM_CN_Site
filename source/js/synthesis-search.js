@@ -82,7 +82,7 @@
         const key = register(commands, output);
         commandCells.set(cells[0], output);
         ingredients.forEach((ingredient, index) => {
-          register(commands, ingredient.name);
+          ingredient.key = register(commands, ingredient.name);
           commandCells.set(cells[index ? 3 : 1], ingredient.name);
         });
         row.id = `synthesis-recipe-${tableIndex}-${rowIndex}`;
@@ -107,7 +107,8 @@
     mount.dataset.ready = 'true';
     mount.innerHTML = `
       <div class="synthesis-search-modes" role="group" aria-label="查询方式">
-        <button type="button" data-mode="command" aria-pressed="true">查指令</button>
+        <button type="button" data-mode="command" aria-pressed="true">查配方</button>
+        <button type="button" data-mode="usage" aria-pressed="false">查用途</button>
         <button type="button" data-mode="ability" aria-pressed="false">查能力</button>
       </div>
       <form class="synthesis-search-form" role="search" aria-label="合成配方查询">
@@ -124,7 +125,7 @@
       <p class="synthesis-search-status" role="status" aria-live="polite" aria-atomic="true"></p>
       <div class="synthesis-search-results"></div>
       <button type="button" class="synthesis-search-more" hidden>显示更多配方</button>
-      <p class="synthesis-search-footnote">成功率指获得目标指令的概率，请留意角色和突变条件。混沌结晶、秘藏原石及不加入结晶的随机能力，不列入指定能力的反查结果。</p>`;
+      <p class="synthesis-search-footnote">成功率指获得卡片所示产物的概率，请留意角色和突变条件。查用途时，标记的指令为查询素材，能力筛选针对产物。混沌结晶、秘藏原石及不加入结晶的随机能力，不列入指定能力的反查结果。</p>`;
 
     const form = mount.querySelector('form');
     const query = form.elements.query;
@@ -155,6 +156,7 @@
     function moveToQuery(nextMode, name) {
       setMode(nextMode);
       query.value = name.cn;
+      ability.value = '';
       render();
       section.scrollIntoView({behavior: scrollBehavior(), block: 'start'});
       query.focus({preventScroll: true});
@@ -165,17 +167,20 @@
     }
 
     function setMode(nextMode) {
+      if ((mode === 'ability') !== (nextMode === 'ability')) {
+        query.value = '';
+        ability.value = '';
+      }
       mode = nextMode;
       limit = 12;
-      query.value = '';
-      ability.value = '';
       mount.querySelectorAll('[data-mode]').forEach(item => item.setAttribute('aria-pressed', String(item.dataset.mode === mode)));
-      mount.querySelector('[data-query-label]').textContent = mode === 'command' ? '想合成的指令' : '想获得的能力';
-      query.placeholder = mode === 'command' ? '例如：火焰冲刺 / Fire Dash' : '例如：绿叶庇护 / Leaf Bracer';
-      mount.querySelector('[data-ability-field]').hidden = mode !== 'command';
+      mount.querySelector('[data-query-label]').textContent = mode === 'ability' ? '想获得的能力' : mode === 'usage' ? '已有的指令' : '想合成的指令';
+      query.placeholder = mode === 'ability' ? '例如：绿叶庇护 / Leaf Bracer' : '例如：火焰冲刺 / Fire Dash';
+      mount.querySelector('.synthesis-search-submit').textContent = mode === 'usage' ? '查询用途' : '查询配方';
+      mount.querySelector('[data-ability-field]').hidden = mode === 'ability';
       mount.querySelector('.synthesis-search-fields').classList.toggle('synthesis-search-fields--ability', mode === 'ability');
       suggestions.replaceChildren();
-      const entries = mode === 'command' ? data.commands : data.abilities;
+      const entries = mode === 'ability' ? data.abilities : data.commands;
       entries.forEach(entry => {
         const aliases = new Map(entry.aliases.map(name => [name.cn, name]));
         aliases.forEach(name => {
@@ -203,12 +208,15 @@
     }
 
     function renderCard(item) {
-      const {recipe, mappings} = item;
+      const {recipe, mappings, matchedIngredients} = item;
       const card = document.createElement('article');
       card.className = 'synthesis-result-card';
       const header = document.createElement('div');
       header.className = 'synthesis-result-header';
-      appendName(header, recipe.output, () => moveToQuery('command', recipe.output));
+      const output = document.createElement('div');
+      if (mode === 'usage') output.append(document.createTextNode('产物：'));
+      appendName(output, recipe.output, () => moveToQuery('command', recipe.output));
+      header.append(output);
       const badge = document.createElement('span');
       badge.className = 'synthesis-result-badge';
       badge.textContent = `${recipe.category} · ${/^[A-P]$/.test(recipe.letter) ? `${recipe.letter} 行` : recipe.letter || '无合成行'}`;
@@ -231,6 +239,13 @@
         level.className = 'synthesis-result-level';
         level.textContent = ingredient.level === '不限' ? '等级不限' : `Lv.${ingredient.level}`;
         part.append(level);
+        if (matchedIngredients.includes(index)) {
+          part.className = 'synthesis-result-ingredient--matched';
+          const label = document.createElement('span');
+          label.className = 'synthesis-result-match-label';
+          label.textContent = '查询素材';
+          part.append(label);
+        }
         ingredients.append(part);
       });
       const metadata = document.createElement('dl');
@@ -246,6 +261,12 @@
       detail('指令成功率', recipe.rate || '未确认');
       if (recipe.note) detail('备注', recipe.note);
       card.append(header, aliases, ingredients, metadata);
+      if (mode === 'usage' && recipe.ingredients[0].key === recipe.ingredients[1].key) {
+        const notice = document.createElement('p');
+        notice.className = 'synthesis-result-notice';
+        notice.textContent = '两项素材为同一指令，需要准备两份。';
+        card.append(notice);
+      }
       if (mappings.length) {
         const attachment = document.createElement('div');
         attachment.className = 'synthesis-result-attachment';
@@ -283,7 +304,10 @@
       link.href = `#${recipe.source.id}`;
       link.textContent = '定位原表 ↗';
       link.addEventListener('click', event => locate(recipe, event));
-      card.append(link);
+      const actions = document.createElement('div');
+      actions.className = 'synthesis-result-actions';
+      actions.append(button('查看产物用途', () => moveToQuery('usage', recipe.output), 'synthesis-result-usage'), link);
+      card.append(actions);
       return card;
     }
 
@@ -301,29 +325,42 @@
         filtered = [];
         results.replaceChildren();
         more.hidden = true;
-        status.textContent = mode === 'command' ? '输入想合成的指令，或先选择希望附带的能力。' : '输入想获得的能力，查看配方与所需结晶。';
+        status.textContent = mode === 'ability' ? '输入想获得的能力，查看配方与所需结晶。' : mode === 'usage' ? '输入已有的指令，查看它可以参与哪些合成。' : '输入想合成的指令，或先选择希望附带的能力。';
         return;
       }
-      const entries = mode === 'command' ? data.commands : data.abilities;
+      const entries = mode === 'ability' ? data.abilities : data.commands;
       const matching = new Set(Array.from(entries.values()).filter(entry => entry.aliases.some(name => matches(name, search))).map(entry => entry.key));
-      filtered = data.recipes.filter(recipe => !role.value || recipe.roles.includes(role.value)).flatMap(recipe => {
-        if (mode === 'command' && !matching.has(recipe.key)) return [];
-        const mappings = recipe.abilities.filter(mapping => mode === 'command'
-          ? ability.value && mapping.key === ability.value
-          : matching.has(mapping.key));
+      const candidates = data.recipes.filter(recipe => mode === 'command'
+        ? matching.has(recipe.key)
+        : mode === 'usage'
+          ? recipe.ingredients.some(ingredient => matching.has(ingredient.key))
+          : recipe.abilities.some(mapping => matching.has(mapping.key)));
+      filtered = candidates.filter(recipe => !role.value || recipe.roles.includes(role.value)).flatMap(recipe => {
+        const mappings = recipe.abilities.filter(mapping => mode === 'ability'
+          ? matching.has(mapping.key)
+          : ability.value && mapping.key === ability.value);
         if ((mode === 'ability' || ability.value) && !mappings.length) return [];
-        return [{recipe, mappings}];
+        const matchedIngredients = mode === 'usage'
+          ? recipe.ingredients.flatMap((ingredient, index) => matching.has(ingredient.key) ? [index] : [])
+          : [];
+        return [{recipe, mappings, matchedIngredients}];
       });
       const target = query.value.trim() || ability.selectedOptions[0].textContent;
       if (filtered.length) {
         const commands = new Set(filtered.map(item => item.recipe.key)).size;
-        status.textContent = `“${target}”：找到 ${filtered.length} 条配方，涉及 ${commands} 种指令${role.value ? ` · ${role.value}` : ''}。`;
+        status.textContent = mode === 'usage'
+          ? `“${target}”：找到 ${filtered.length} 条用途配方，可合成 ${commands} 种指令${role.value ? ` · ${role.value}` : ''}。`
+          : `“${target}”：找到 ${filtered.length} 条配方，涉及 ${commands} 种指令${role.value ? ` · ${role.value}` : ''}。`;
       } else if (!matching.size) {
         status.textContent = `未找到“${target}”。请尝试名称的一部分，或使用日文、英文名称。`;
+      } else if (!candidates.length) {
+        status.textContent = mode === 'usage'
+          ? '本表未收录该指令作为素材的合成用途。'
+          : '本表未列出该指令的合成配方；部分指令仅作为素材收录。';
       } else {
         status.textContent = mode === 'ability'
           ? '没有适用于所选角色的配方，请切换角色后重试。'
-          : '没有符合条件的配方。可以切换角色或放宽附带能力筛选；部分指令仅作为素材收录，本表未列出其合成配方。';
+          : '没有符合所选角色或附带能力的配方。可以切换角色或放宽附带能力筛选。';
       }
       showResults();
     }
